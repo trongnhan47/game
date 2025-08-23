@@ -2,11 +2,11 @@ setfpscap(3)
 
 getgenv().gagConfig = {
     -- Event:
-    CRAFT_EVENT = { "Anti Bee Egg" },
-    BUY_TRAVELING_MERCHANT = { "Bee Egg", "Loquat", "Feijoa", "Pitcher Plant" },
+
+    CRAFT_EVENT = { "Anti Bee Egg", "Skyroot Chest" },
+    BUY_TRAVELING_MERCHANT = { "Bee Egg", "Paradise Egg", "Loquat", "Feijoa", "Pitcher Plant" },
     MAX_EVENT_RESTOCK_SHECKLES = 48_000_001,  -- Restock stop at 48m
-    BUY_EVENT_SHOP = { "Sprout Egg", "Spriggan" },
-    PLANT_EVENT_TREES = true,  -- This config will replace most plant related config
+    BUY_EVENT_SHOP = { "Sprout Egg", "Spriggan", "Skyroot Chest", "Gnome", "Sprout Seed Pack" },
     
     -- General:
     AUTO_UPDATE_RESTART = true,
@@ -16,21 +16,22 @@ getgenv().gagConfig = {
     ADD_FRIEND = true,
     OPEN_ALL_SEED_PACK = true,
 
-    MAX_PLANTS = 500,
-    DESTROY_UNTIL_MIN_PLANTS = 450,
+    MAX_PLANTS = 250,
+    DESTROY_UNTIL_MIN_PLANTS = 200,
     DELETE_PLANTS_AFTER_MAX = { "Carrot", "Strawberry", "Blueberry", "Tomato", "Apple" },
     
     BUY_EGGS = { "Bug Egg", "Bee Egg", "Paradise Egg", "Zen Egg", "Common Summer Egg"},
-    PLANT_EGGS = { "Gourmet Egg", "Corrupted Zen Egg", "Zen Egg", "Common Summer Egg", "Dinosaur Egg", "Primal Egg", "Anti Bee Egg", "Night Egg", "Bug Egg", "Paradise Egg", "Oasis Egg", "Sprout Egg"},
+    PLANT_EGGS = { "Gourmet Egg", "Corrupted Zen Egg", "Zen Egg", "Dinosaur Egg", "Primal Egg", "Anti Bee Egg", "Night Egg", "Bug Egg", "Paradise Egg", "Oasis Egg", "Sprout Egg", "Common Summer Egg"},
     
     BUY_SEED_SHOP = { "Romanesco", "Elder Strawberry", "Giant Pinecone", "Burning Bud", "Sugar Apple", "Ember Lily", "Beanstalk", "Cacao", "Pepper", "Mushroom", "Grape", "Mango", "Dragon Fruit", "Cactus", ["Coconut"] = 50, ["Bamboo"] = 50, ["Apple"] = 50, ["Pumpkin"] = 50, ["Watermelon"] = 50, ["Daffodil"] = 50, ["Tomato"] = 50, ["Orange Tulip"] = 50, ["Blueberry"] = 50, ["Strawberry"] = 50, ["Carrot"] = 50 },
-    KEEP_SEEDS = { "abc" },
+    KEEP_SEEDS = { "Yami" },
     KEEP_SEEDS_AFTER_MAX_PLANTS = { "Carrot", "Strawberry", "Blueberry", "Tomato", "Apple" },
     
     FAVOURITE_FRUIT_MUTATIONS = {},  -- Stop Autosell
     SKIP_HARVEST_MUTATIONS = {},  -- Stop Harvest
 
     KEEP_PETS = { 
+			"Griffin",
 			"Golem",
 			"Golden Goose",
 			"Lobster Thermidor",
@@ -88,7 +89,10 @@ getgenv().gagConfig = {
     PET_WEBHOOK_URL = "https://discord.com/api/webhooks/1407998660377317467/cAvvNrsINeCckQw2Mavvi-QREkYmmgfYQMPxlazqA6nLLjTOFdQXNe0X8CkTux694fcn",
     SEED_WEBHOOK_URL = "", 
     NOTIFY_PETS = {
+				"Griffin",
 				"Golden Goose",
+				"Lobster Thermidor",
+				"French Fry Ferret",
 				"Kitsune",
 				"Spinosaurus",
 				"T-Rex",
@@ -103,9 +107,9 @@ getgenv().gagConfig = {
 				},
     NOTIFY_PETS_WEIGHT = { ["Red Giant Ant"] = 10, ["Bear Bee"] = 10, ["Tanchozuru"] = 10 },
     DISCORD_ID = "111zzz",
-    WEBHOOK_NOTE = "Testttttttttt",
+    WEBHOOK_NOTE = "PC",
     SHOW_WEBHOOK_USERNAME = true,
     SHOW_WEBHOOK_JOBID = false,
 }
 
-loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/c916e5b90dc37c71ecf1ec00dfce3d5d.lua"))()
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/6cb882027ef5de19462b160764dcfb53.lua"))()
