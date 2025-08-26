@@ -2,11 +2,7 @@ setfpscap(3)
 
 getgenv().gagConfig = {
     -- Event:
-
-    CRAFT_EVENT = { "Anti Bee Egg", "Skyroot Chest" },
-    BUY_TRAVELING_MERCHANT = { "Bee Egg", "Paradise Egg", "Loquat", "Feijoa", "Pitcher Plant" },
-    MAX_EVENT_RESTOCK_SHECKLES = 48_000_001,  -- Restock stop at 48m
-    BUY_EVENT_SHOP = { "Sprout Egg", "Spriggan", "Skyroot Chest", "Gnome", "Sprout Seed Pack" },
+    BUY_TRAVELING_MERCHANT = { "Bee Egg", "Loquat", "Feijoa", "Pitcher Plant" },
     
     -- General:
     AUTO_UPDATE_RESTART = true,
@@ -20,16 +16,17 @@ getgenv().gagConfig = {
     DESTROY_UNTIL_MIN_PLANTS = 200,
     DELETE_PLANTS_AFTER_MAX = { "Carrot", "Strawberry", "Blueberry", "Tomato", "Apple" },
     
-    BUY_EGGS = { "Bug Egg", "Bee Egg", "Paradise Egg", "Zen Egg", "Common Summer Egg"},
-    PLANT_EGGS = { "Gourmet Egg", "Corrupted Zen Egg", "Zen Egg", "Dinosaur Egg", "Primal Egg", "Anti Bee Egg", "Night Egg", "Bug Egg", "Paradise Egg", "Oasis Egg", "Sprout Egg", "Common Summer Egg"},
+    BUY_EGGS = { "Bug Egg", "Bee Egg", "Paradise Egg", "Mythical Egg", "Common Summer Egg", "Rare Egg", "Uncommon Egg" },
+    PLANT_EGGS = { "Sprout Egg", "Gourmet Egg", "Corrupted Zen Egg", "Zen Egg", "Dinosaur Egg", "Primal Egg", "Anti Bee Egg", "Bee Egg", "Night Egg", "Bug Egg", "Paradise Egg", "Mythical Egg", "Common Summer Egg", "Rare Egg", "Uncommon Egg" },
     
     BUY_SEED_SHOP = { "Romanesco", "Elder Strawberry", "Giant Pinecone", "Burning Bud", "Sugar Apple", "Ember Lily", "Beanstalk", "Cacao", "Pepper", "Mushroom", "Grape", "Mango", "Dragon Fruit", "Cactus", ["Coconut"] = 50, ["Bamboo"] = 50, ["Apple"] = 50, ["Pumpkin"] = 50, ["Watermelon"] = 50, ["Daffodil"] = 50, ["Tomato"] = 50, ["Orange Tulip"] = 50, ["Blueberry"] = 50, ["Strawberry"] = 50, ["Carrot"] = 50 },
-    KEEP_SEEDS = { "Yami" },
+    KEEP_SEEDS = { "Bone Blossom" },
     KEEP_SEEDS_AFTER_MAX_PLANTS = { "Carrot", "Strawberry", "Blueberry", "Tomato", "Apple" },
     
-    FAVOURITE_FRUIT_MUTATIONS = {},  -- Stop Autosell
-    SKIP_HARVEST_MUTATIONS = {},  -- Stop Harvest
+    FAVOURITE_FRUIT_MUTATIONS = {},
+    SKIP_HARVEST_MUTATIONS = {},
 
+    
     KEEP_PETS = { 
 			"Griffin",
 			"Golem",
@@ -52,38 +49,28 @@ getgenv().gagConfig = {
 			"Mimic Octopus",
 			"Red Fox",
 			"Blood Owl",
+			["Chicken"] = 5,
+			["Gnome"] = 10,
 			["Dairy Cow"] = 5,
 			["Jackalope"] = 5,
 			["Sapling"] = 5,
-			["Gorilla Chef"] = 2,
-			["Sunny-Side Chicken"] = 8,
-			["Spaghetti Sloth"] = 2,
 			["Starfish"] = 10,
 			["Bald Eagle"] = 1,
 			["Caterpillar"] = 3,
 			["Giant Ant"] = 2,
 			["Shiba Inu"] = 1,
 			["Blood Kiwi"] = 2,
-			["Rooster"] = 2
+			["Rooster"] = 2,
+			["Capybara"] = 1
 	},
-    KEEP_PETS_WEIGHT = { ["Red Giant Ant"] = 5 },
-    KEEP_PETS_AGE = { ["Starfish"] = 75 },
+	KEEP_PETS_WEIGHT = 7,
+    KEEP_PETS_AGE = 90,
 
-    EQUIP_PETS = { 
-				["Starfish"] = 8,
-				["Gorilla Chef"] = 1,
-				["Sunny-Side Chicken"] = 8,
-				["Spaghetti Sloth"] = 1,
-				["Caterpillar"] = 1,
-				["Giant Ant"] = 1,
-				["Shiba Inu"] = 1,
-				["Blood Kiwi"] = 1,
-				["Rooster"] = 1
-	},
-    USE_PETS_FOR_UPGRADE_SLOT = { "Starfish" },
-    REMOVE_PET_MAX_UPGRADE = { "Capybara", "Starfish" },  -- Unequip from garden
+    EQUIP_PETS = { ["Chicken"] = 5, ["Rooster"] = 2, ["Capybara"] = 1 },
+    USE_PETS_FOR_UPGRADE_SLOT = { "Chicken" },
+    REMOVE_PET_MAX_UPGRADE = { "Capybara", "Chicken" },  -- Unequip from garden
 
-    BUY_GEAR_SHOP = { "Grandmaster Sprinkler", "Master Sprinkler", "Godly Sprinkler", "Advanced Sprinkler", "Basic Sprinkler", "Level Up Lollipop", "Trading Ticket" },
+    BUY_GEAR_SHOP = { "Grandmaster Sprinkler", "Master Sprinkler", "Godly Sprinkler", "Advanced Sprinkler", "Basic Sprinkler", "Trading Ticket" },
     USE_SPRINKLER = { "Basic Sprinkler", "Master Sprinkler", "Godly Sprinkler", "Advanced Sprinkler", "Grandmaster Sprinkler" },
 
     PET_WEBHOOK_URL = "https://discord.com/api/webhooks/1407998660377317467/cAvvNrsINeCckQw2Mavvi-QREkYmmgfYQMPxlazqA6nLLjTOFdQXNe0X8CkTux694fcn",
@@ -91,8 +78,6 @@ getgenv().gagConfig = {
     NOTIFY_PETS = {
 				"Griffin",
 				"Golden Goose",
-				"Lobster Thermidor",
-				"French Fry Ferret",
 				"Kitsune",
 				"Spinosaurus",
 				"T-Rex",
@@ -105,11 +90,12 @@ getgenv().gagConfig = {
 				"Raccoon",
 				"Red Fox",
 				},
-    NOTIFY_PETS_WEIGHT = { ["Red Giant Ant"] = 10, ["Bear Bee"] = 10, ["Tanchozuru"] = 10 },
-    DISCORD_ID = "111zzz",
-    WEBHOOK_NOTE = "PC",
+				
+    NOTIFY_PETS_WEIGHT = 7,
+    DISCORD_ID = "",
+    WEBHOOK_NOTE = "",
     SHOW_WEBHOOK_USERNAME = true,
-    SHOW_WEBHOOK_JOBID = false,
+    SHOW_WEBHOOK_JOBID = true,
 }
 
 loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/c916e5b90dc37c71ecf1ec00dfce3d5d.lua"))()
