@@ -86,6 +86,7 @@ getgenv().gagConfig = {
     PET_WEBHOOK_URL = "https://discord.com/api/webhooks/1407998660377317467/cAvvNrsINeCckQw2Mavvi-QREkYmmgfYQMPxlazqA6nLLjTOFdQXNe0X8CkTux694fcn",
     SEED_WEBHOOK_URL = "", 
     NOTIFY_PETS = {
+    "Swan",
     "Phoenix",
     "Cockatrice",
     "Kitsune",
