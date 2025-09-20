@@ -2,7 +2,7 @@ setfpscap(3)
 getgenv().gagConfig = {
     -- Event:
     BUY_TRAVELING_MERCHANT = { "Bee Egg", "Paradise Egg", "Loquat", "Feijoa", "Pitcher Plant" },
-    BUY_EVENT_SHOP = { "Marmot", "Fall Egg", "Golden Acorn", "Sugar Glider", "Space Squirrel" },
+    BUY_EVENT_SHOP = {"Red Panda", "Marmot", "Fall Egg", "Golden Acorn", "Sugar Glider", "Space Squirrel" },
     
     PLANT_EVENT_TREES = true,  -- This config will replace most plant related config
     PLACE_COSMETIC = { "Cooking Kit" },
@@ -33,6 +33,7 @@ getgenv().gagConfig = {
     SKIP_HARVEST_MUTATIONS = {},  -- Stop Harvest
 
     KEEP_PETS = { 
+			"Red Panda",
 			"Swan",
 			"Barn Owl",
 			"Space Squirrel",
@@ -87,6 +88,7 @@ getgenv().gagConfig = {
     PET_WEBHOOK_URL = "https://discord.com/api/webhooks/1407998660377317467/cAvvNrsINeCckQw2Mavvi-QREkYmmgfYQMPxlazqA6nLLjTOFdQXNe0X8CkTux694fcn",
     SEED_WEBHOOK_URL = "", 
     NOTIFY_PETS = {
+				"Red Panda",
 				"Phoenix",
 				"Swan",
 				"Cockatrice",
