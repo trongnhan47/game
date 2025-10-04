@@ -35,6 +35,7 @@ getgenv().gagConfig = {
     SKIP_HARVEST_MUTATIONS = {},  -- Stop Harvest
 
     KEEP_PETS = { 
+			"Chubby Chipmunk",
 			"Mizuchi",
 			"Tiger",
 			"Swan",
@@ -91,6 +92,7 @@ getgenv().gagConfig = {
 	SHOW_PUBLIC_DISCORD_ID = false,
     SEED_WEBHOOK_URL = "", 
     NOTIFY_PETS = {
+				"Chubby Chipmunk",
 				"Mizuchi",
 				"Tiger",
 				"Swan",
