@@ -91,6 +91,8 @@ getgenv().gagConfig = {
 	SHOW_PUBLIC_DISCORD_ID = false,
     SEED_WEBHOOK_URL = "", 
     NOTIFY_PETS = {
+				"Fortune Squirrel", 
+				"Chinchilla",
 				"Tiger",
 				"Swan",
 				"Phoenix",
