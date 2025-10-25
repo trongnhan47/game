@@ -28,6 +28,11 @@ getgenv().gagConfig = {
 
     
     KEEP_PETS = { 
+			"Mummy",
+			"Hex Serpent",
+			"Lich",
+			"Goat",
+		 	"Headless Horseman", 
 			"Cockatrice",
 			"Glimmering Sprite",
 			"Griffin",
