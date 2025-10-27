@@ -70,7 +70,10 @@ getgenv().gagConfig = {
 	KEEP_PETS_WEIGHT = 7,
     KEEP_PETS_AGE = 90,
 
-    EQUIP_PETS = { ["Chicken"] = 5, ["Rooster"] = 2, ["Capybara"] = 1 },
+     EQUIP_PETS = {
+		{"Chicken", 8, 1},
+		{"Rooster", 8, 2},
+	},
     USE_PETS_FOR_UPGRADE_SLOT = { "Chicken" },
     REMOVE_PET_MAX_UPGRADE = { "Capybara", "Chicken" },  -- Unequip from garden
 
