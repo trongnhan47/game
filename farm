@@ -68,6 +68,7 @@ getgenv().gagConfig = {
 			"Hydra",
 			"Peacock",
 			"Ostrich",
+			"Goblin Miner",
 			["Orange Tabby"] = 2,
 			["Sapphire Macaw"] = 8,
 			["Emerald Snake"] = 8,
@@ -103,6 +104,7 @@ getgenv().gagConfig = {
     NOTIFY_PETS = {
 			"Ruby Squid",
 			"Diamond Panther",
+			"Goblin Miner",
 				},
     NOTIFY_PETS_WEIGHT = { ["Red Giant Ant"] = 10, ["Bear Bee"] = 10, ["Tanchozuru"] = 10 },
     DISCORD_ID = "111zzz",
