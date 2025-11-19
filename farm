@@ -68,6 +68,7 @@ getgenv().gagConfig = {
 			"Hydra",
 			"Goblin Miner",
 			"Peacock",
+			"Ostrich"
 			["Sapphire Macaw"] = 8,
 			["Rhino"] = 8,
 			["Starfish"] = 1,
