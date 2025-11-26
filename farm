@@ -81,7 +81,7 @@ getgenv().gagConfig = {
 			["Rooster"] = 8
 	},
     KEEP_PETS_WEIGHT = 5,
-    KEEP_PETS_AGE = 60,
+    KEEP_PETS_AGE = 80,
 
 	-- test
 	EQUIP_PET_SHARD = { ["Glimmering Sprite"] = "Glimmering" },
