@@ -30,6 +30,7 @@ getgenv().gagConfig = {
     SKIP_HARVEST_MUTATIONS = {},  -- Stop Harvest
 
     KEEP_PETS = { 
+			"Camel",
 			"Bearded Dragon",
 			"Chimera",
 			"Goblin Miner",
@@ -106,6 +107,7 @@ getgenv().gagConfig = {
 	SHOW_PUBLIC_DISCORD_ID = false,
     SEED_WEBHOOK_URL = "", 
     NOTIFY_PETS = {
+			"Camel",
 			"Ruby Squid",
 			"Bearded Dragon",
 				},
