@@ -32,8 +32,7 @@ getgenv().gagConfig = {
 
     KEEP_PETS = { 
 	"Krampus",
-    "Mistletoad",
-    "Frost Dragon",
+     "Frost Dragon",
    "Gift Rat",
    "Penguin",
    "Camel",
@@ -85,6 +84,7 @@ getgenv().gagConfig = {
    ["Starfish"] = 8,
    ["Shiba Inu"] = 1,
    ["Blood Kiwi"] = 2,
+["Mistletoad"] = 12,
    ["Rooster"] = 8
  },
     KEEP_PETS_WEIGHT = 5,
