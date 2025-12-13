@@ -1,14 +1,14 @@
 getgenv().gagConfig = {
-    BUY_TRAVELING_MERCHANT = { "Christmas Egg","Bee Egg", "Paradise Egg", "Fall Egg", "Loquat", "Feijoa", "Pitcher Plant" },
-    BUY_EVENT_SHOP = { "Santa's Surprise Present","Christmas Egg" },
+    BUY_TRAVELING_MERCHANT = { "Bee Egg", "Paradise Egg", "Fall Egg", "Loquat", "Feijoa", "Pitcher Plant", "Christmas Egg" },
+    BUY_EVENT_SHOP = { "Santa's Surprise Present", "Christmas Egg", "Jingle Bells" },
     OPEN_ALL_PRESENT = true,
 
     MAX_PLANTS = 200,
-    DESTROY_UNTIL_MIN_PLANTS = 180,
+    DESTROY_UNTIL_MIN_PLANTS = 160,
     KEEP_SEEDS = { "Bone Blossom" },
     KEEP_SEEDS_AFTER_MAX_PLANTS = {},
 
-    PLACE_COSMETIC = { "Cooking Kit" },
+    PLACE_COSMETIC = { "Cooking Kit", "Jingle Bells" },
     
     -- General:
     AUTO_UPDATE_RESTART = true,
@@ -22,18 +22,17 @@ getgenv().gagConfig = {
 
     BUY_COSMETIC_SHOP = { ["Cooking Kit"] = 3 },
     
-    BUY_EGGS = { "Gem Egg", "Spooky Egg", "Jungle Egg", "Christmas Egg", "Bug Egg", "Bee Egg", "Paradise Egg", "Zen Egg", "Safari Egg", "Rare Egg", "Common Egg", "Uncommon Egg", "Mythical Egg", "Legendary Egg" },
-    PLANT_EGGS = { "Gem Egg", "Christmas Egg","Paradise Egg", "Spooky Egg", "Jungle Egg", "Safari Egg", "Legendary Egg" },
+    BUY_EGGS = { "Gem Egg", "Spooky Egg", "Jungle Egg", "Bug Egg", "Bee Egg", "Paradise Egg", "Zen Egg", "Safari Egg", "Rare Egg", "Common Egg", "Uncommon Egg", "Mythical Egg", "Legendary Egg", "Christmas Egg" },
+    PLANT_EGGS = { "Christmas Egg", "Gem Egg", "Paradise Egg", "Spooky Egg", "Jungle Egg", "Safari Egg" },
     
-    BUY_SEED_SHOP = { "Octobloom Seed", "Zebrazinkle", "Crimson Thorn", "Romanesco", "Elder Strawberry", "Giant Pinecone", "Burning Bud", "Sugar Apple", "Ember Lily", "Beanstalk", "Sunflower", "Cacao", "Pepper", "Mushroom", "Grape", "Mango", "Dragon Fruit", "Cactus", ["Coconut"] = 50, ["Bamboo"] = 50, ["Apple"] = 50, ["Pumpkin"] = 50, ["Watermelon"] = 50, ["Daffodil"] = 50, ["Corn"] = 50, ["Tomato"] = 50, ["Buttercup"] = 50, ["Blueberry"] = 50, ["Strawberry"] = 50, ["Carrot"] = 50 },
- 
+    BUY_SEED_SHOP = { "Peppermint Vine Seed", "Octobloom Seed", "Zebrazinkle", "Crimson Thorn", "Romanesco", "Elder Strawberry", "Giant Pinecone", "Burning Bud", "Sugar Apple", "Ember Lily", "Beanstalk", "Sunflower", "Cacao", "Pepper", "Mushroom", "Grape", "Mango", "Dragon Fruit", "Cactus", ["Coconut"] = 50, ["Bamboo"] = 50, ["Apple"] = 50, ["Pumpkin"] = 50, ["Watermelon"] = 50, ["Daffodil"] = 50, ["Corn"] = 50, ["Tomato"] = 50, ["Buttercup"] = 50, ["Blueberry"] = 50, ["Strawberry"] = 50, ["Carrot"] = 50 },
+    
     FAVOURITE_FRUIT_MUTATIONS = {},  -- Stop Autosell
     SKIP_HARVEST_MUTATIONS = {},  -- Stop Harvest
-
-    KEEP_PETS = { 
-"Yeti",
-"Nutcracker",
-"Ice Golem",
+	
+	 KEEP_PETS = { 
+	"Yeti",
+	"Ice Golem",
 	"Krampus",
      "Frost Dragon",
 	"Arctic Fox",
@@ -88,8 +87,9 @@ getgenv().gagConfig = {
    ["Starfish"] = 8,
    ["Shiba Inu"] = 1,
    ["Blood Kiwi"] = 2,
-["Mistletoad"] = 12,
-["Christmas Gorilla"] = 12,
+	["Mistletoad"] = 12,
+	["Nutcracker"] = 12,
+	["Christmas Gorilla"] = 12,
    ["Rooster"] = 8
  },
     KEEP_PETS_WEIGHT = 5,
@@ -118,14 +118,11 @@ getgenv().gagConfig = {
 	SHOW_PUBLIC_DISCORD_ID = false,
     SEED_WEBHOOK_URL = "", 
     NOTIFY_PETS = {
-"Yeti",
-"Nutcracker",
-"Ice Golem",
+			"Yeti",
+			"Ice Golem",
 			"Ruby Squid",
 			"Krampus",
-       "Penguin",
-    "Frost Dragon",
-   "Gift Rat",
+
 				},
     NOTIFY_PETS_WEIGHT = { ["Red Giant Ant"] = 10, ["Bear Bee"] = 10, ["Tanchozuru"] = 10 },
     DISCORD_ID = "111zzz",
