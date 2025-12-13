@@ -1,5 +1,5 @@
 getgenv().gagConfig = {
-    BUY_TRAVELING_MERCHANT = { "Bee Egg", "Paradise Egg", "Fall Egg", "Loquat", "Feijoa", "Pitcher Plant" },
+    BUY_TRAVELING_MERCHANT = { "Christmas Egg","Bee Egg", "Paradise Egg", "Fall Egg", "Loquat", "Feijoa", "Pitcher Plant" },
     BUY_EVENT_SHOP = { "Santa's Surprise Present" },
     OPEN_ALL_PRESENT = true,
 
