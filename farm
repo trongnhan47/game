@@ -1,6 +1,6 @@
 getgenv().gagConfig = {
     BUY_TRAVELING_MERCHANT = { "Bee Egg", "Paradise Egg", "Fall Egg", "Loquat", "Feijoa", "Pitcher Plant", "Christmas Egg" },
-    BUY_EVENT_SHOP = { "Santa's Surprise Present", "Christmas Egg", "Jingle Bells" },
+    BUY_EVENT_SHOP = { "Santa's Surprise Present", "Christmas Egg", "Jingle Bells" , "Ice Wand", "Golden Ticket" },
     OPEN_ALL_PRESENT = true,
 
     MAX_PLANTS = 200,
@@ -33,6 +33,10 @@ getgenv().gagConfig = {
 	 KEEP_PETS = { 
 	"Yeti",
 	"Ice Golem",
+"Rudolph", 
+"Santa",
+"Grinch",
+"Snowman",
 	"Krampus",
      "Frost Dragon",
 	"Arctic Fox",
@@ -119,11 +123,11 @@ getgenv().gagConfig = {
 	SHOW_PUBLIC_DISCORD_ID = false,
     SEED_WEBHOOK_URL = "", 
     NOTIFY_PETS = {
-			"Yeti",
 			"Ice Golem",
-			"Ruby Squid",
-			"Krampus",
-
+			"Rudolph", 
+			"Santa",
+			"Grinch",
+			"Snowman",
 				},
     NOTIFY_PETS_WEIGHT = { ["Red Giant Ant"] = 10, ["Bear Bee"] = 10, ["Tanchozuru"] = 10 },
     DISCORD_ID = "111zzz",
