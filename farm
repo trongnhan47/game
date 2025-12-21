@@ -1,35 +1,34 @@
 getgenv().gagConfig = {
-    BUY_TRAVELING_MERCHANT = { "Bee Egg", "Paradise Egg", "Fall Egg", "Loquat", "Feijoa", "Pitcher Plant", "Winter Egg", "Christmas Egg" },
-    BUY_EVENT_SHOP = { "Winter Egg", "Santa's Surprise Present", "Christmas Egg", "Jingle Bells" },
-    OPEN_ALL_PRESENT = true,
-    USE_CHRISTMAS_GEAR = {"Jingle Bells", "Ice Wand"},
+    BUY_TRAVELING_MERCHANT = { "Bee Egg", "Paradise Egg", "Fall Egg", "Loquat", "Feijoa", "Pitcher Plant", "Christmas Egg" },
+    BUY_EVENT_SHOP = { "Santa's Surprise Present", "Christmas Egg", "Jingle Bells" },
+    OPEN_ALL_PRESENT = true,
 
-    MAX_PLANTS = 200,
-    DESTROY_UNTIL_MIN_PLANTS = 160,
-    KEEP_SEEDS = { "Bone Blossom" },
-    KEEP_SEEDS_AFTER_MAX_PLANTS = {},
+    MAX_PLANTS = 200,
+    DESTROY_UNTIL_MIN_PLANTS = 160,
+    KEEP_SEEDS = { "Bone Blossom" },
+    KEEP_SEEDS_AFTER_MAX_PLANTS = {},
 
-    PLACE_COSMETIC = { "Cooking Kit", "Jingle Bells" },
-    
-    -- General:
-    AUTO_UPDATE_RESTART = true,
-    REDEEM_CODES = {},
-    EXTRA_PET_SLOTS = 5,
-    EXTRA_EGG_SLOTS = 5,
-    MAX_REBIRTH_SHECKLES = 0,
-    ADD_FRIEND = true,
-    OPEN_ALL_SEED_PACK = true,
-    COLLECT_FRUIT_PER_SECOND = 3,
+    PLACE_COSMETIC = { "Cooking Kit", "Jingle Bells" },
+    
+    -- General:
+    AUTO_UPDATE_RESTART = true,
+    REDEEM_CODES = {},
+    EXTRA_PET_SLOTS = 5,
+    EXTRA_EGG_SLOTS = 5,
+    MAX_REBIRTH_SHECKLES = 0,
+    ADD_FRIEND = true,
+    OPEN_ALL_SEED_PACK = true,
+    COLLECT_FRUIT_PER_SECOND = 3,
 
-    BUY_COSMETIC_SHOP = { ["Cooking Kit"] = 3 },
-    
-    BUY_EGGS = { "Winter Egg", "Gem Egg", "Spooky Egg", "Jungle Egg", "Bug Egg", "Bee Egg", "Paradise Egg", "Zen Egg", "Safari Egg", "Rare Egg", "Common Egg", "Uncommon Egg", "Mythical Egg", "Legendary Egg", "Christmas Egg" },
-    PLANT_EGGS = { "Winter Egg", "Christmas Egg", "Gem Egg", "Paradise Egg", "Spooky Egg", "Jungle Egg", "Safari Egg" , "Zen Egg", "Bug Egg"},
-    
-    BUY_SEED_SHOP = { "Peppermint Vine Seed", "Octobloom Seed", "Zebrazinkle", "Crimson Thorn", "Romanesco", "Elder Strawberry", "Giant Pinecone", "Burning Bud", "Sugar Apple", "Ember Lily", "Beanstalk", "Sunflower", "Cacao", "Pepper", "Mushroom", "Grape", "Mango", "Dragon Fruit", "Cactus", ["Coconut"] = 50, ["Bamboo"] = 50, ["Apple"] = 50, ["Pumpkin"] = 50, ["Watermelon"] = 50, ["Daffodil"] = 50, ["Corn"] = 50, ["Tomato"] = 50, ["Buttercup"] = 50, ["Blueberry"] = 50, ["Strawberry"] = 50, ["Carrot"] = 50 },
-    
-    FAVOURITE_FRUIT_MUTATIONS = {},  -- Stop Autosell
-    SKIP_HARVEST_MUTATIONS = {},  -- Stop Harvest
+    BUY_COSMETIC_SHOP = { ["Cooking Kit"] = 3 },
+    
+    BUY_EGGS = { "Gem Egg", "Spooky Egg", "Jungle Egg", "Bug Egg", "Bee Egg", "Paradise Egg", "Zen Egg", "Safari Egg", "Rare Egg", "Common Egg", "Uncommon Egg", "Mythical Egg", "Legendary Egg", "Christmas Egg" },
+    PLANT_EGGS = { "Christmas Egg", "Gem Egg", "Paradise Egg", "Spooky Egg", "Jungle Egg", "Safari Egg" },
+    
+    BUY_SEED_SHOP = { "Peppermint Vine Seed", "Octobloom Seed", "Zebrazinkle", "Crimson Thorn", "Romanesco", "Elder Strawberry", "Giant Pinecone", "Burning Bud", "Sugar Apple", "Ember Lily", "Beanstalk", "Sunflower", "Cacao", "Pepper", "Mushroom", "Grape", "Mango", "Dragon Fruit", "Cactus", ["Coconut"] = 50, ["Bamboo"] = 50, ["Apple"] = 50, ["Pumpkin"] = 50, ["Watermelon"] = 50, ["Daffodil"] = 50, ["Corn"] = 50, ["Tomato"] = 50, ["Buttercup"] = 50, ["Blueberry"] = 50, ["Strawberry"] = 50, ["Carrot"] = 50 },
+    
+    FAVOURITE_FRUIT_MUTATIONS = {},  -- Stop Autosell
+    SKIP_HARVEST_MUTATIONS = {},  -- Stop Harvest
 
     KEEP_PETS = { 
       "Wendigo",
