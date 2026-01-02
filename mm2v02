@@ -1,6 +1,7 @@
 getgenv().Config = {
     FARM_MODE = "Multi", -- Chuyển sang chế độ đa năng
     LIST_FARM_MODE = {"BattlePass", "Crate"}, -- Thêm 2 mục này vào danh sách
+    STOP_MULTI_FARM_MODE_IF_FULL_TIER_AND_CAN_BUY_REWARD = false,
     AUTO_RESTART_WHEN_UPDATE = true,
     HOP_WHEN_COIN_EARNED_LOWER = 250,
     TIME_TO_CHECK_COIN_EARNED = 1800,
