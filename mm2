@@ -1,14 +1,31 @@
 getgenv().Config = {
-    FARM_MODE = "Multi", -- Chuyển sang chế độ đa năng
-    LIST_FARM_MODE = {"BattlePass", "Crate"}, -- Thêm 2 mục này vào danh sách
-    STOP_MULTI_FARM_MODE_IF_FULL_TIER_AND_CAN_BUY_REWARD = false,
+    LOCK_FPS = 3, -- Only work in Web Version
+    FARM_MODE = "Crate", -- Crate Only
     AUTO_RESTART_WHEN_UPDATE = true,
     HOP_WHEN_COIN_EARNED_LOWER = 250,
     TIME_TO_CHECK_COIN_EARNED = 1800,
     DISPLAY_UI = true,
-    STOP_AUTO_BUY_FINAL_REWARD = false, -- Stop auto buy Godly Item when completed Battle Pass
     WEBHOOK_URL = "https://discord.com/api/webhooks/1407998660377317467/cAvvNrsINeCckQw2Mavvi-QREkYmmgfYQMPxlazqA6nLLjTOFdQXNe0X8CkTux694fcn",
-    WEBHOOK_NOTE = ""
+    WEBHOOK_NOTE = "",
+    AUTO_CHANGE = { -- Auto change when account cant farm valentines coins
+        WAIT_UNTIL_LEVEL_10_WHEN_HAVE_GODLY_ITEMS = true, -- If account have godly items, wait until level 10 to change [because level 10 is required to trade items]
+        TIME_TO_CHANGE = 60, -- Time to change after meet condition
+        YUMMY_TOOL = {
+            ENABLED = true
+        },
+        FARM_SYNC = {
+            ENABLED = false,
+            HAVE_GODLY = { -- folder change when have godly items
+                FOLDER_FROM = "have_godly_folder_id_from",
+                FOLDER_TO = "have_godly_folder_id_to",
+            },
+            NO_GODLY = { -- folder change when no godly items
+                FOLDER_FROM = "no_godly_folder_id_from",
+                FOLDER_TO = "no_godly_folder_id_to",
+            },
+            CHANGE_WITHOUT_REPLACE = false -- true / false
+        }
+    }
 }
 
 task.spawn(function()
@@ -26,4 +43,4 @@ task.spawn(function()
     end
 end)
 
-loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/8b381051c5e99846fe64dcea7d597e49.lua"))()
+loadstring(game:HttpGet("https://api.luarmor.net/files/v4/loaders/0e38c9f962f6e016372a764db6595b22.lua"))()
