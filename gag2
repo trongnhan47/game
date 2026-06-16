@@ -1,8 +1,8 @@
 getgenv().GAG2Config = {
-    FPS_CAP = 5, -- Đã tối ưu về 5 FPS để dàn 18 máy Xeon chạy siêu mát
+    FPS_CAP = 5,
     AUTO_UPDATE_RESTART = true,
 
-    BUY_PET = {  
+    BUY_PET = {  -- ["Pet Name"] = Amount
         ["Monkey"] = 99, 
         ["Bee"] = 99, 
         ["BlackDragon"] = 99, 
@@ -15,85 +15,93 @@ getgenv().GAG2Config = {
         ["Deer"] = 5,
     },
 
-    EQUIP_PET = {  
+    EQUIP_PET = {  -- {"Pet Name", Amount to Equip, Priority}
         {"Unicorn", 5, 1}, 
         {"GoldenDragonfly", 10, 2},
         {"Robin", 5, 3},
         {"Deer", 5, 4},
     },
 
-    PLANT_SEED = {  
-        -- Đặt số lượng lớn để bot liên tục trồng khi có đất trống
-        ["Carrot"] = 500,  
-        ["Tulip"] = 500,
-        ["Bamboo"] = 500,
-        ["Mushroom"] = 500,
-        ["Green Bean"] = 500,
-        ["Banana"] = 100,
-        ["Grape"] = 100,
-        ["Coconut"] = 100,
-        ["Mango"] = 100,
-        ["Dragon Fruit"] = 100,
-        -- Các cây cơ bản đặt số lượng vừa phải
-        ["Strawberry"] = 50,
-        ["Blueberry"] = 50,
-        ["Tomato"] = 50,
-        ["Apple"] = 50,
-        ["Corn"] = 50,
-        ["Cactus"] = 50,
-        ["Pineapple"] = 50,
-    },
-
-    BUY_SEED = {  
-        -- CHỈ NÊN ĐỂ MUA TỪ 50 - 100 HẠT MỖI LẦN. Hết bot sẽ tự đi mua tiếp.
-        -- Tránh để 9999 làm acc trắng bị cạn tiền không farm được.
-        ["Carrot"] = 100,  
-        ["Strawberry"] = 50,
-        ["Blueberry"] = 50,
-        ["Tulip"] = 100,
-        ["Tomato"] = 50,
-        ["Apple"] = 50,
-        ["Bamboo"] = 100,
-        ["Corn"] = 50,
-        ["Cactus"] = 50,
-        ["Pineapple"] = 50,
-        ["Mushroom"] = 100,
-        ["Green Bean"] = 100,
+    PLANT_SEED = {  -- ["Seed Name"] = Amount
+        ["Carrot"] = 50, 
+        ["Strawberry"] = 4,
+        ["Blueberry"] = 4,
+        ["Tulip"] = 50,
+        ["Tomato"] = 4,
+        ["Apple"] = 4,
+        ["Bamboo"] = 200,
+        ["Corn"] = 4,
+        ["Cactus"] = 4,
+        ["Pineapple"] = 4,
+        ["Mushroom"] = 200,
+        ["Green Bean"] = 200,
         ["Banana"] = 50,
         ["Grape"] = 50,
         ["Coconut"] = 50,
         ["Mango"] = 50,
         ["Dragon Fruit"] = 50,
+        ["Acorn"] = 50,
+        ["Cherry"] = 50,
+        ["Sunflower"] = 50,
+        ["Venus Fly Trap"] = 50,
+        ["Pomegranate"] = 50,
+        ["Poison Apple"] = 50,
+        ["Moon Bloom"] = 50,
+        ["Dragon's Breath"] = 50,
     },
 
-    -- Tính năng lọc đột biến để bán giá cao của bản GAG2
-    COLLECT_PLANT_IF_MUTATED = { "Bamboo", "Mushroom", "Green Bean" },  
-    FAVOURITE_FRUIT = {},  
+    BUY_SEED = {  -- ["Seed Name"] = Amount
+        ["Carrot"] = 9999, 
+        ["Strawberry"] = 9999,
+        ["Blueberry"] = 9999,
+        ["Tulip"] = 9999,
+        ["Tomato"] = 9999,
+        ["Apple"] = 9999,
+        ["Bamboo"] = 9999,
+        ["Corn"] = 9999,
+        ["Cactus"] = 9999,
+        ["Pineapple"] = 9999,
+        ["Mushroom"] = 9999,
+        ["Green Bean"] = 9999,
+        ["Banana"] = 9999,
+        ["Grape"] = 9999,
+        ["Coconut"] = 9999,
+        ["Mango"] = 9999,
+        ["Dragon Fruit"] = 9999,
+        ["Acorn"] = 9999,
+        ["Cherry"] = 9999,
+        ["Sunflower"] = 9999,
+        ["Venus Fly Trap"] = 9999,
+        ["Pomegranate"] = 9999,
+        ["Poison Apple"] = 9999,
+        ["Moon Bloom"] = 9999,
+        ["Dragon's Breath"] = 9999,
+    },
 
-    SELL_ALL_DELAY = 10, -- Giảm xuống 10 giây để bot bán đồ nhanh hơn, lấy vốn xoay vòng
-    FOCUS_RAINBOW_GOLD_SEED = false,  
-    EXPAND_PLOT = true,  -- Tự động mua thêm ô đất khi đủ tiền
-    BUY_GEAR = {},  
-    BUY_CRATE = {},  
-    USE_SPRINKLER = {},  
+    COLLECT_PLANT_IF_MUTATED = { "Bamboo", "Mushroom", "Green Bean" },  -- Only collect fruit when have ANY mutation
+    FAVOURITE_FRUIT = {},  -- ["Fruit Name"] = {} ... or ... ["Fruit Name"] = { "Gold", "Rainbow" }
 
-    -- Cấu hình Auto Mail (Rất quan trọng để chuyển nông sản hiếm về acc chính)
-    AUTO_MAIL_USERNAME = {},  -- Thay tên nick chính vào đây để clone tự gửi đồ về
-    AUTO_MAIL_ITEM_NAME = { 
-        ["Golden Dragonfly"] = 1, -- Ví dụ: tự động gửi thú hiếm về nick chính
-        ["Mushroom"] = 100 
-    },  
+    SELL_ALL_DELAY = 20,
+    FOCUS_RAINBOW_GOLD_SEED = false,  -- set true if public server (instant collect), false for slightly slower collect
+    EXPAND_PLOT = true,
+    BUY_GEAR = {},  -- ["Gear Name"] = Amount
+    BUY_CRATE = {},  -- ["Crate Name"] = Amount
+    USE_SPRINKLER = {},  -- "Sprinkler Name"
+
+    -- Auto Mail
+    AUTO_MAIL_USERNAME = {},  -- "Username" (Randomized)
+    AUTO_MAIL_ITEM_NAME = {},  -- ["Item Name"] = Amount
     COLLECT_MAIL = true,
 
-    -- Discord Webhook để bạn giám sát 18 máy từ xa qua điện thoại
+    -- Discord
     WEBHOOK_PET_NAME = {},
     WEBHOOK_PET_RARITY = { "Mythic", "Super", "Secret" },
-    WEBHOOK_URL = "", -- Dán link Webhook Discord của bạn vào đây để nhận thông báo khi clone nhặt được đồ ngon
+    WEBHOOK_URL = "",
     DISCORD_ID = "",
-    WEBHOOK_NOTE = "Trại máy số 1",  
+    WEBHOOK_NOTE = "",  -- Private Webhook
     SHOW_PUBLIC_DISCORD_ID = true,
-    SHOW_WEBHOOK_USERNAME = true,  
-    SHOW_WEBHOOK_JOBID = true,  
+    SHOW_WEBHOOK_USERNAME = true,  -- Private Webhook
+    SHOW_WEBHOOK_JOBID = true,  -- Private Webhook
 }
 
 loadstring(game:HttpGet("https://api.luarmor.net/files/v4/loaders/c9ea3aa6c782de82dee4bcf6b9a9d03e.lua"))()
