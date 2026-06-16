@@ -1,4 +1,4 @@
-script_key="";
+script_key="QmyqaiiNHKBuAngVOEyaAAXbPlRAXkzJ";
 getgenv().GAG2Config = {
     FPS_CAP = 5, -- Đã tối ưu về 5 FPS để dàn 18 máy Xeon chạy siêu mát
     AUTO_UPDATE_RESTART = true,
