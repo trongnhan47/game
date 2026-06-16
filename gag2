@@ -79,7 +79,7 @@ getgenv().GAG2Config = {
     USE_SPRINKLER = {},  
 
     -- Cấu hình Auto Mail (Rất quan trọng để chuyển nông sản hiếm về acc chính)
-    AUTO_MAIL_USERNAME = { "Tên_Acc_Chính_Của_Bạn" },  -- Thay tên nick chính vào đây để clone tự gửi đồ về
+    AUTO_MAIL_USERNAME = {},  -- Thay tên nick chính vào đây để clone tự gửi đồ về
     AUTO_MAIL_ITEM_NAME = { 
         ["Golden Dragonfly"] = 1, -- Ví dụ: tự động gửi thú hiếm về nick chính
         ["Mushroom"] = 100 
