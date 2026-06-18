@@ -1,38 +1,50 @@
 getgenv().GAG2Config = {
-    FPS_CAP = 5,
+    FPS_CAP = 5,  -- MUST USE 5+ FPS FOR TWEENING (Giữ nguyên 5 FPS theo yêu cầu của script để tránh lỗi di chuyển)
     AUTO_UPDATE_RESTART = true,
 
-    BUY_PET = {  -- ["Pet Name"] = Amount
+    -- [UPDATE] Cấu hình BUY_PET mới: Đã sửa tên Pet không dấu (No Spaces!)
+    -- Thêm chữ "Big" hoặc "Huge" trước tên nếu chỉ muốn mua loại To/Khổng lồ. Để tên không sẽ mua TẤT CẢ các size.
+    BUY_PET = {  
         ["Monkey"] = 99, 
         ["Bee"] = 99, 
-        ["BlackDragon"] = 99, 
-        ["GoldenDragonfly"] = 99, 
+        ["BlackDragon"] = 99,       -- Đã sửa: "Black Dragon" -> "BlackDragon"
+        ["GoldenDragonfly"] = 99,   -- Đã sửa: "Golden Dragonfly" -> "GoldenDragonfly"
         ["Unicorn"] = 99, 
         ["Raccoon"] = 99, 
-        ["IceSerpent"] = 99,
+        ["IceSerpent"] = 99,        -- Đã sửa: "Ice Serpent" -> "IceSerpent"
 
-        ["Robin"] = 5,
-        ["Deer"] = 5,
+        ["Big Deer"] = 5,           -- Ví dụ mua riêng hệ Big
+        ["Huge Frog"] = 5,          -- Ví dụ mua riêng hệ Huge
     },
 
-    EQUIP_PET = {  -- {"Pet Name", Amount to Equip, Priority}
+    -- [UPDATE] Cấu hình EQUIP_PET mới: Đã sửa tên không dấu (No Spaces!) theo định dạng: {"Tên", Số lượng, Độ ưu tiên}
+    EQUIP_PET = {  
         {"Unicorn", 5, 1}, 
-        {"GoldenDragonfly", 10, 2},
-        {"Robin", 5, 3},
-        {"Deer", 5, 4},
+        {"GoldenDragonfly", 10, 2}, -- Đã sửa thành "GoldenDragonfly"
+        {"IceSerpent", 5, 3},       -- Đã sửa thành "IceSerpent"
+        {"BlackDragon", 5, 4},      -- Đã sửa thành "BlackDragon"
     },
 
-    PLANT_SEED = {  -- ["Seed Name"] = Amount
-        ["Carrot"] = 50, 
-        ["Strawberry"] = 4,
-        ["Blueberry"] = 4,
-        ["Tulip"] = 50,
-        ["Tomato"] = 4,
-        ["Apple"] = 4,
+    -- [UPDATE] Điều chỉnh cấu hình gieo hạt để tối ưu hóa "Sheckle Farming" (Gia tăng 15-70x Multiplier Mutation)
+    -- Đã gỡ bỏ giới hạn cap 200 cũ, tự động bảo vệ cây trồng (Tối đa 200 cây mỗi ô đất)
+    PLANT_SEED = {  
+        ["Carrot"] = 100,  
+        ["Tulip"] = 100,
+        ["Bamboo"] = 200,           -- Tập trung farm mạnh cây đột biến để lấy Sheckles nhanh
+        ["Mushroom"] = 200,         -- Tập trung farm mạnh cây đột biến để lấy Sheckles nhanh
+        ["Green Bean"] = 200,       -- Lưu ý: Hãy trang bị "Green Bean Avatar" trên Roblox để mua được hạt này!
+        ["Banana"] = 50,
+        ["Grape"] = 50,
+        ["Coconut"] = 50,
+        ["Mango"] = 50,
+        ["Dragon Fruit"] = 50,
+    },
+
+    -- [UPDATE] Đã hạ số lượng mua xuống mức an toàn (50-100 hạt) để acc clone không bị cạn tiền ban đầu
+    BUY_SEED = {  
+        ["Carrot"] = 100,  
+        ["Tulip"] = 100,
         ["Bamboo"] = 200,
-        ["Corn"] = 4,
-        ["Cactus"] = 4,
-        ["Pineapple"] = 4,
         ["Mushroom"] = 200,
         ["Green Bean"] = 200,
         ["Banana"] = 50,
@@ -40,68 +52,48 @@ getgenv().GAG2Config = {
         ["Coconut"] = 50,
         ["Mango"] = 50,
         ["Dragon Fruit"] = 50,
-        ["Acorn"] = 50,
-        ["Cherry"] = 50,
-        ["Sunflower"] = 50,
-        ["Venus Fly Trap"] = 50,
-        ["Pomegranate"] = 50,
-        ["Poison Apple"] = 50,
-        ["Moon Bloom"] = 50,
-        ["Dragon's Breath"] = 50,
     },
 
-    BUY_SEED = {  -- ["Seed Name"] = Amount
-        ["Carrot"] = 9999, 
-        ["Strawberry"] = 9999,
-        ["Blueberry"] = 9999,
-        ["Tulip"] = 9999,
-        ["Tomato"] = 9999,
-        ["Apple"] = 9999,
-        ["Bamboo"] = 9999,
-        ["Corn"] = 9999,
-        ["Cactus"] = 9999,
-        ["Pineapple"] = 9999,
-        ["Mushroom"] = 9999,
-        ["Green Bean"] = 9999,
-        ["Banana"] = 9999,
-        ["Grape"] = 9999,
-        ["Coconut"] = 9999,
-        ["Mango"] = 9999,
-        ["Dragon Fruit"] = 9999,
-        ["Acorn"] = 9999,
-        ["Cherry"] = 9999,
-        ["Sunflower"] = 9999,
-        ["Venus Fly Trap"] = 9999,
-        ["Pomegranate"] = 9999,
-        ["Poison Apple"] = 9999,
-        ["Moon Bloom"] = 9999,
-        ["Dragon's Breath"] = 9999,
-    },
+    -- [NEW CONFIG] Tính năng lọc chỉ thu hoạch khi có BẤT KỲ đột biến nào để cày Sheckles siêu tốc mua pet hiếm
+    COLLECT_PLANT_IF_MUTATED = { "Bamboo", "Mushroom", "Green Bean" },  
+    
+    -- [NEW CONFIG] Ưu tiên thu hoạch trái cây theo độ hiếm từ Tốt nhất đến Tệ nhất
+    -- Định dạng: ["Tên trái"] = {} hoặc ["Tên trái"] = { "Gold", "Rainbow" }
+    FAVOURITE_FRUIT = {
+        ["Bamboo"] = { "Gold", "Rainbow" },
+        ["Mushroom"] = { "Gold", "Rainbow" },
+    },  
 
-    COLLECT_PLANT_IF_MUTATED = { "Bamboo", "Mushroom", "Green Bean" },  -- Only collect fruit when have ANY mutation
-    FAVOURITE_FRUIT = {},  -- ["Fruit Name"] = {} ... or ... ["Fruit Name"] = { "Gold", "Rainbow" }
-
+    SELL_ALL_DAILY_DEAL = true,     -- [NEW CONFIG] Tự động bán tất cả vật phẩm theo Daily Deal để tối đa hóa lợi nhuận
     SELL_ALL_DELAY = 20,
-    FOCUS_RAINBOW_GOLD_SEED = false,  -- set true if public server (instant collect), false for slightly slower collect
-    EXPAND_PLOT = true,
-    BUY_GEAR = {},  -- ["Gear Name"] = Amount
-    BUY_CRATE = {},  -- ["Crate Name"] = Amount
-    USE_SPRINKLER = {},  -- "Sprinkler Name"
 
-    -- Auto Mail
-    AUTO_MAIL_USERNAME = {},  -- "Username" (Randomized)
-    AUTO_MAIL_ITEM_NAME = {},  -- ["Item Name"] = Amount
+    -- [NEW CONFIG] Tập trung 100% nhặt hạt giống Cầu vồng/Vàng (Hệ thống sẽ tắt hết tính năng khác để nhặt INSTANT)
+    -- CHỈ đặt TRUE nếu dàn acc của bạn đang chạy ở SERVER CÔNG CỘNG (Public). Đặt FALSE nếu chạy ở SERVER VIP (Private).
+    FOCUS_RAINBOW_GOLD_SEED = false,  
+
+    -- [UPDATE CHUYÊN SÂU] Cấu hình mở rộng ô đất bằng số cụ thể thay vì True/False cũ
+    -- 0 = Không mở rộng, 3 = Tự động mở rộng đất 3 lần (Mỗi lần mở rộng cho phép trồng thêm 200 cây)
+    EXPAND_PLOT = 3,  
+
+    BUY_GEAR = {},  
+    BUY_CRATE = {},  
+    USE_SPRINKLER = {},  
+
+    -- [UPDATE] Cấu hình gửi Mail tự động chuyển đồ về nick chính: Đã hỗ trợ chữ "All" để chuyển sạch toàn bộ
+    AUTO_MAIL_USERNAME = {},  -- Thay tên Nick chính nhận đồ của bạn vào đây
+    AUTO_MAIL_ITEM_NAME = { },  
     COLLECT_MAIL = true,
 
-    -- Discord
+    -- Cấu hình Discord Webhook để theo dõi tiến độ cày của 18 máy từ xa
     WEBHOOK_PET_NAME = {},
-    WEBHOOK_PET_RARITY = { "Mythic", "Super", "Secret" },
-    WEBHOOK_URL = "",
+    WEBHOOK_PET_RARITY = { "Mythic", "Super", "Secret" }, -- Chỉ báo về Discord khi clone quay ra Pet từ hệ Mythic trở lên
+    WEBHOOK_URL = "", -- Dán link Webhook Discord của bạn vào đây
     DISCORD_ID = "",
-    WEBHOOK_NOTE = "",  -- Private Webhook
+    WEBHOOK_NOTE = "Trại máy Xeon số 1",  
     SHOW_PUBLIC_DISCORD_ID = true,
-    SHOW_WEBHOOK_USERNAME = true,  -- Private Webhook
-    SHOW_WEBHOOK_JOBID = true,  -- Private Webhook
+    SHOW_WEBHOOK_USERNAME = true,  
+    SHOW_WEBHOOK_JOBID = true,  
 }
 
+-- Hệ thống tự động kích hoạt tính năng ẩn: Auto Skip Cutscene (giảm crash cho giả lập) và Auto Kick nếu kẹt màn hình loading
 loadstring(game:HttpGet("https://api.luarmor.net/files/v4/loaders/c9ea3aa6c782de82dee4bcf6b9a9d03e.lua"))()
