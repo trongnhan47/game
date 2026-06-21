@@ -100,8 +100,26 @@ getgenv().GAG2Config = {
     BUY_CRATE = {},  -- ["Crate Name"] = Amount
 
     -- Auto Mail
-    AUTO_MAIL_USERNAME = {},  -- "Username" (Randomized)
-    AUTO_MAIL_ITEM_NAME = {},  -- ["Item Name"] = Amount
+   AUTO_MAIL_USERNAME = {"dtscoffeebmt"},  -- Thay tên Nick chính nhận đồ của bạn vào đây
+    AUTO_MAIL_ITEM_NAME = {
+	     ["Pet"] = {
+            ["Golden Dragonfly"] = 1,
+            ["Unicorn"] = 1,
+            ["Raccoon"] = 1,
+            ["Monkey"] = 1,
+            ["Bee"] = {Normal = 1, Big = 1, Huge = 1, Rainbow = 1, To = "dtscoffeebmt"},
+            ["Ice Serpent"] = 1,
+        },
+        ["Seed"] = {
+            ["Rainbow"] = 2,
+            ["Gold"] = 10,
+            ["Mushroom"] = {Amount = 1, To = "dtscoffeebmt"},
+            ["Dragon's Breath"] = 1,
+        },
+        ["Gear"] = {
+            ["Super Sprinkler"] = 1,
+        },
+	},  
     COLLECT_MAIL = true,
 
     -- Discord
