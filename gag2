@@ -107,13 +107,13 @@ getgenv().GAG2Config = {
             ["Unicorn"] = 1,
             ["Raccoon"] = 1,
             ["Monkey"] = 1,
-            ["Bee"] = {Normal = 1, Big = 1, Huge = 1, Rainbow = 1, To = "dtscoffeebmt"},
+            ["Bee"] = 1,
             ["Ice Serpent"] = 1,
         },
         ["Seed"] = {
             ["Rainbow"] = 2,
             ["Gold"] = 10,
-            ["Mushroom"] = {Amount = 1, To = "dtscoffeebmt"},
+            ["Mushroom"] = 1,
             ["Dragon's Breath"] = 1,
         },
         ["Gear"] = {
