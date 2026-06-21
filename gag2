@@ -123,9 +123,9 @@ getgenv().GAG2Config = {
     COLLECT_MAIL = true,
 
     -- Discord
-    WEBHOOK_PET_NAME = {},
+    WEBHOOK_PET_NAME = {"Golden Dragonfly","Unicorn","Raccoon","Monkey","Bee","Ice Serpent","Robin","Deer"},
     WEBHOOK_PET_RARITY = { "Mythic", "Super", "Secret" },
-    WEBHOOK_URL = "",
+    WEBHOOK_URL = "https://discord.com/api/webhooks/1407998660377317467/cAvvNrsINeCckQw2Mavvi-QREkYmmgfYQMPxlazqA6nLLjTOFdQXNe0X8CkTux694fcn",
     DISCORD_ID = "",
     WEBHOOK_NOTE = "",  -- Private Webhook
     SHOW_PUBLIC_DISCORD_ID = true,
