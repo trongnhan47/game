@@ -107,7 +107,6 @@ getgenv().GAG2Config = {
             ["Unicorn"] = 1,
             ["Raccoon"] = 1,
             ["Monkey"] = 1,
-            ["Bee"] = 1,
             ["Ice Serpent"] = 1,
    
             ["Dragon's Breath"] = 1,
