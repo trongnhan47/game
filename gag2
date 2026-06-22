@@ -110,7 +110,8 @@ getgenv().GAG2Config = {
             ["Ice Serpent"] = 1,
    
             ["Dragon's Breath"] = 1,
- 
+			["Super Watering Can"] = 2,
+     		["Super Sprinkler"] = 2,
 	},  
     COLLECT_MAIL = true,
 
