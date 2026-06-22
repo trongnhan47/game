@@ -102,23 +102,16 @@ getgenv().GAG2Config = {
     -- Auto Mail
    AUTO_MAIL_USERNAME = {"dtscoffeebmt"},  -- Thay tên Nick chính nhận đồ của bạn vào đây
     AUTO_MAIL_ITEM_NAME = {
-	     ["Pet"] = {
+	 
             ["Golden Dragonfly"] = 1,
             ["Unicorn"] = 1,
             ["Raccoon"] = 1,
             ["Monkey"] = 1,
             ["Bee"] = 1,
             ["Ice Serpent"] = 1,
-        },
-        ["Seed"] = {
-            ["Rainbow"] = 2,
-            ["Gold"] = 10,
-            ["Mushroom"] = 1,
+   
             ["Dragon's Breath"] = 1,
-        },
-        ["Gear"] = {
-            ["Super Sprinkler"] = 1,
-        },
+ 
 	},  
     COLLECT_MAIL = true,
 
