@@ -4,7 +4,7 @@ getgenv().GAG2Config = {
     COLLECT_FRUIT_DELAY = 20,
 
     BUY_PET = {  -- ["Pet Name"] = Amount
-        [["Deer"] = 3,
+        ["Deer"] = 3,
         ["Robin"] = 3,
         ["Raccoon"] = 999,
         ["BlackDragon"] = 999,
@@ -110,7 +110,7 @@ getgenv().GAG2Config = {
     COLLECT_MAIL = true,
 
     -- Discord
-    WEBHOOK_PET_NAME = {"Golden Dragonfly","Unicorn","Raccoon","Monkey","Bee","Ice Serpent","Robin","Deer"},
+    WEBHOOK_PET_NAME = {"GoldenDragonfly","Unicorn","Raccoon","Monkey","Bee","IceSerpent","Robin","Deer"},
     WEBHOOK_PET_RARITY = { "Mythic", "Super", "Secret" },
     WEBHOOK_URL = "https://discord.com/api/webhooks/1407998660377317467/cAvvNrsINeCckQw2Mavvi-QREkYmmgfYQMPxlazqA6nLLjTOFdQXNe0X8CkTux694fcn",
     DISCORD_ID = "",
