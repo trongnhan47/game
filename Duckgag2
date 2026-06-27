@@ -80,7 +80,9 @@ getgenv().UserConfig = {
     ["Unlock Pet Slots"] = 5,
     ["Auto Collect Seed Packs"] = true,
     ["Gears"] = {
-        ["Buy Gear"] = {},
+        ["Buy Gear"] = {
+				"Super Sprinkler",
+},
         ["Gears To Use"] = {},
     },
     ["Webhook URL"] = "https://discord.com/api/webhooks/1407998660377317467/cAvvNrsINeCckQw2Mavvi-QREkYmmgfYQMPxlazqA6nLLjTOFdQXNe0X8CkTux694fcn",
