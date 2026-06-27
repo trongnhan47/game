@@ -82,6 +82,7 @@ getgenv().UserConfig = {
     ["Gears"] = {
         ["Buy Gear"] = {
 				"Super Sprinkler",
+				"Super Watering Can",
 },
         ["Gears To Use"] = {},
     },
