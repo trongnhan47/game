@@ -88,13 +88,14 @@ getgenv().GAG2Config = {
     USE_SPRINKLER = {},  -- "Sprinkler Name"
 
     BUY_GEAR = {  -- ["Gear Name"] = Amount
-        ["Super Watering Can"] = 9999,
+      
         ["Super Sprinkler"] = 9999,
+  		["Super Watering Can"] = 9999,
     },  
     BUY_CRATE = {},  -- ["Crate Name"] = Amount
 
     -- Auto Mail
-   AUTO_MAIL_USERNAME = {"dtscoffeebmt"},  -- Thay tên Nick chính nhận đồ của bạn vào đây
+   AUTO_MAIL_USERNAME = {"BellaLa0101"},  -- Thay tên Nick chính nhận đồ của bạn vào đây
     AUTO_MAIL_ITEM_NAME = {
 	 
             ["Golden Dragonfly"] = 1,
