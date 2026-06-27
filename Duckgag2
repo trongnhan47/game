@@ -109,9 +109,9 @@ getgenv().UserConfig = {
             ["Dragon's Breath"] = 1,
         },
         ["Gear"] = {
+			["Super Sprinkler"] = 1,
             ["Super Watering Can"] = 1,
-            ["Super Sprinkler"] = 1,
-        },
+                    },
     },
     ["Claim Mail"] = true,
     ["Auto Plant"] = true,
