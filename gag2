@@ -95,7 +95,7 @@ getgenv().GAG2Config = {
     BUY_CRATE = {},  -- ["Crate Name"] = Amount
 
     -- Auto Mail
-   AUTO_MAIL_USERNAME = {"BellaLa0101"},  -- Thay tên Nick chính nhận đồ của bạn vào đây
+   AUTO_MAIL_USERNAME = {"JoukeSmitzKoenun"},  -- Thay tên Nick chính nhận đồ của bạn vào đây
     AUTO_MAIL_ITEM_NAME = {
 	 
             ["Golden Dragonfly"] = 1,
