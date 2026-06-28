@@ -73,16 +73,8 @@ getgenv().UserConfig = {
         --"Apple",
     },
     ["Buy Pets"] = {
-        ["Frog"] = {Huge = 99, Rainbow = 99}, -- mua 99 Huge, 99 Rainbow (không mua pet Normal, Big)
-        ["Bunny"] = {Huge = 99, Rainbow = 99},
-        ["Turtle"] = {Huge = 99, Rainbow = 99},
-        ["Owl"] = {Huge = 99, Rainbow = 99},
-        ["Deer"] = {Huge = 99, Rainbow = 99},
-        ["Robin"] = {Big = 99, Huge = 99, Rainbow = 99},
-        ["Bee"] = {Big = 99, Huge = 99, Rainbow = 99},
-        ["Monkey"] = 999, -- mua 999 tất cả loại
-        ["Golden Dragonfly"] = 999,
-        ["Unicorn"] = 999,
+         ["Bunny"] =8,
+        ["Deer"] = 10,
         ["Raccoon"] = 999,
         ["Black Dragon"] = 999,
     },
@@ -123,9 +115,9 @@ getgenv().UserConfig = {
     	-- WH Gear
     ["Webhook Gear URL"] = "https://discord.com/api/webhooks/1407998660377317467/cAvvNrsINeCckQw2Mavvi-QREkYmmgfYQMPxlazqA6nLLjTOFdQXNe0X8CkTux694fcn",
     ["Webhook Gear Name"] = {"Super Sprinkler"},
-    ["Webhook Note"] = "DuckyNew",
+    ["Webhook Note"] = "Accnew",
     ["Discord ID"] = "xxx",
-    ["Mail To Username"] = {"dtscoffeebmt" },
+    ["Mail To Username"] = {"LiweiKoeneDaanun" },
     ["Items To Mail"] = {
         ["Pet"] = {
             ["Golden Dragonfly"] = 1,
@@ -137,8 +129,7 @@ getgenv().UserConfig = {
         },
         ["Seed"] = {
             ["Rainbow"] = 1,
-            ["Gold"] = 20, 
-            ["Mega"] = 1,
+             ["Mega"] = 1,
             ["Mushroom"] = 10,
             ["Dragon's Breath"] = 1,
         },
@@ -150,6 +141,6 @@ getgenv().UserConfig = {
     ["Claim Mail"] = true,
     ["Auto Plant"] = true,
     ["Limit Auto Plant"] = 800,
-    ["Blacklist Seed"] = {"Mega","Rainbow", "Gold", "Dragon's Breath", "Venus Fly Trap", "Moon Bloom"}
+    ["Blacklist Seed"] = {"Mega","Rainbow", "Dragon's Breath", "Venus Fly Trap", "Moon Bloom"}
 }
 loadstring(game:HttpGet("https://api.luarmor.net/files/v4/loaders/66adeacbfb46c0ea4883aefee367292a.lua"))()
