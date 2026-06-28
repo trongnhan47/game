@@ -10,7 +10,7 @@ getgenv().UserConfig = {
     },
     ["Limit Buy Seed"] = {
 
-		 ["Hypno Bloom"] = 5, 
+		 ["Hypno Bloom"] = 100, 
         ["Carrot"] = 5, 
         ["Strawberry"] = 5,
         ["Blueberry"] = 5,
@@ -101,7 +101,7 @@ getgenv().UserConfig = {
     ["Webhook Gear Name"] = {"Super Sprinkler"},
     ["Webhook Note"] = "Ducky",
     ["Discord ID"] = "xxx",
-    ["Mail To Username"] = {"dtscoffeebmt"},
+    ["Mail To Username"] = {"JoukeSmitzKoenun"},
     ["Items To Mail"] = {
         ["Pet"] = {
             ["Golden Dragonfly"] = 1,
