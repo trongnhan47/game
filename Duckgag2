@@ -4,9 +4,33 @@ getgenv().UserConfig = {
     ["Auto Buy Seed"] = true,
     ["Auto Plant Seed"] = true,
     ["Limit Plant Seed"] = {
-        ["Carrot"] = 50,
-		 ["Mushroom"] = 50,
-		["Bamboo"] = 50,		
+	 	 ["Carrot"] = 4, 
+        ["Strawberry"] = 4,
+        ["Blueberry"] = 4,
+        ["Tulip"] = 4,
+        ["Tomato"] = 4,
+        ["Apple"] = 4,
+        ["Bamboo"] = 150,
+        ["Corn"] = 4,
+        ["Cactus"] = 4,
+        ["Pineapple"] = 4,
+        ["Mushroom"] = 200,
+        ["Green Bean"] = 200,
+        ["Banana"] = 50,
+        ["Grape"] = 50,
+        ["Coconut"] = 50,
+        ["Mango"] = 50,
+        ["Dragon Fruit"] = 50,
+        ["Acorn"] = 50,
+        ["Cherry"] = 50,
+        ["Sunflower"] = 50,
+        ["Venus Fly Trap"] = 50,
+        ["Pomegranate"] = 50,
+        ["Poison Apple"] = 50,
+    ["Venom Spitter"] = 50,
+        -- ["Moon Bloom"] = 50,
+        -- ["Dragon's Breath"] = 50,
+	
     },
     ["Limit Buy Seed"] = {
 
@@ -125,7 +149,7 @@ getgenv().UserConfig = {
     },
     ["Claim Mail"] = true,
     ["Auto Plant"] = true,
-    ["Limit Auto Plant"] = 500,
+    ["Limit Auto Plant"] = 600,
     ["Blacklist Seed"] = {"Mega","Rainbow", "Gold", "Dragon's Breath", "Venus Fly Trap", "Moon Bloom"}
 }
 loadstring(game:HttpGet("https://api.luarmor.net/files/v4/loaders/66adeacbfb46c0ea4883aefee367292a.lua"))()
