@@ -112,6 +112,7 @@ getgenv().UserConfig = {
             ["Ice Serpent"] = 1,
         },
         ["Seed"] = {
+			["Hypno Bloom"] = 1,
             ["Rainbow"] = 2,
             ["Gold"] = 20, 
             ["Mega"] = 1,
