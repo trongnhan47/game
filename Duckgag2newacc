@@ -34,8 +34,7 @@ getgenv().UserConfig = {
     },
     ["Limit Buy Seed"] = {
 
-		 ["Hypno Bloom"] = 100, 
-        ["Carrot"] = 5, 
+		 ["Carrot"] = 5, 
         ["Strawberry"] = 5,
         ["Blueberry"] = 5,
         ["Tulip"] = 5,
@@ -61,6 +60,7 @@ getgenv().UserConfig = {
         ["Venom Spitter"] = 10,
         ["Moon Bloom"] = 100,
         ["Dragon's Breath"] = 100,
+		["Hypno Bloom"] = 100, 
     },
 ["Blacklist Shovel"] = {"Dragon's Breath", "Moon Bloom", "Ghost Pepper", "Venom Spitter", "Poison Apple", "Pomegranate", "Venus Fly Trap"},
 ["Shovel Plant Once"] = {},
@@ -136,7 +136,7 @@ getgenv().UserConfig = {
             ["Ice Serpent"] = 1,
         },
         ["Seed"] = {
-            ["Rainbow"] = 2,
+            ["Rainbow"] = 1,
             ["Gold"] = 20, 
             ["Mega"] = 1,
             ["Mushroom"] = 10,
