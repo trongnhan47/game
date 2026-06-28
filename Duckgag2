@@ -5,7 +5,8 @@ getgenv().UserConfig = {
     ["Auto Plant Seed"] = true,
     ["Limit Plant Seed"] = {
         ["Carrot"] = 50,
-		["Bamboo"] = 150,		
+		 ["Mushroom"] = 10,
+		["Bamboo"] = 50,		
     },
     ["Limit Buy Seed"] = {
 
@@ -114,8 +115,7 @@ getgenv().UserConfig = {
             ["Rainbow"] = 2,
             ["Gold"] = 20, 
             ["Mega"] = 1,
-            ["Mushroom"] = 10,
-            ["Dragon's Breath"] = 1,
+             ["Dragon's Breath"] = 1,
         },
         ["Gear"] = {
             ["Super Sprinkler"] = 1,
