@@ -73,16 +73,13 @@ getgenv().UserConfig = {
         --"Apple",
     },
     ["Buy Pets"] = {
-        ["Frog"] = {Huge = 99, Rainbow = 99}, -- mua 99 Huge, 99 Rainbow (không mua pet Normal, Big)
-        ["Bunny"] = 10,
-        ["Deer"] = {Huge = 99, Rainbow = 99},
-        ["Robin"] = {Big = 99, Huge = 99, Rainbow = 99},
-        ["Bee"] = {Big = 99, Huge = 99, Rainbow = 99},
-        ["Raccoon"] = 999,
+         ["Raccoon"] = 999,
         ["Black Dragon"] = 999,
     },
     ["Equip Pets"] = {
-        {"Bunny", 5, 3},
+		 {"Deer", 3, 3},
+        {"Robin", 3, 2},
+     
     },
     ["Expand Plot"] = true,
     ["Plot Expansions"] = 3,
