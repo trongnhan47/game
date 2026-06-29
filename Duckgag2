@@ -99,11 +99,7 @@ getgenv().UserConfig = {
             ["Bear"] = 1,
         },
         ["Seed"] = {
-            ["Rainbow"] = 1,
-            ["Gold"] = 20, 
-            ["Mega"] = 2, 
-            ["Venus Fly Trap"] = 1,
-            ["Venom Spitter"] = 1,
+           
             ["Moon Bloom"] = 1,
             ["Dragon's Breath"] = 1,
 			["Hypno Bloom"] = 1,
