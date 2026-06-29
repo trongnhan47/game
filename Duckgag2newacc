@@ -73,13 +73,14 @@ getgenv().UserConfig = {
         --"Apple",
     },
     ["Buy Pets"] = {
-         ["Bunny"] =8,
-        ["Deer"] = 10,
+         ["Bunny"] =5,
+        ["Deer"] = 5,
         ["Raccoon"] = 999,
         ["Black Dragon"] = 999,
     },
     ["Equip Pets"] = {
-        {"Bunny", 5, 3},
+        {"Bunny", 5, 2},
+		 {"Deer", 5, 3},
     },
     ["Expand Plot"] = true,
     ["Plot Expansions"] = 3,
