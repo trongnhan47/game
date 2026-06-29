@@ -86,7 +86,10 @@ getgenv().UserConfig = {
     ["Unlock Pet Slots"] = 5,
     ["Auto Collect Seed Packs"] = true,
     ["Gears"] = {
-        ["Buy Gear"] = { },
+        ["Buy Gear"] = {
+		 ["Super Sprinkler"] = 9999,
+  		["Super Watering Can"] = 9999,
+},
         ["Gears To Use"] = {},
     },
         -- WH Pet
@@ -128,7 +131,7 @@ getgenv().UserConfig = {
     },
     ["Claim Mail"] = true,
     ["Auto Plant"] = true,
-    ["Limit Auto Plant"] = 800,
+    ["Limit Auto Plant"] = 350,
     ["Blacklist Seed"] = {"Mega","Rainbow", "Dragon's Breath", "Venus Fly Trap", "Moon Bloom", "Hypno Bloom"}
 }
 loadstring(game:HttpGet("https://api.luarmor.net/files/v4/loaders/66adeacbfb46c0ea4883aefee367292a.lua"))()
