@@ -97,7 +97,7 @@ getgenv().GAG2Config = {
     BUY_CRATE = {},  -- ["Crate Name"] = Amount
 
     -- Auto Mail
-   AUTO_MAIL_USERNAME = {"dtscoffeebmt"},  -- Thay tên Nick chính nhận đồ của bạn vào đây
+   AUTO_MAIL_USERNAME = {"LiweiKoeneDaanun"},  -- Thay tên Nick chính nhận đồ của bạn vào đây
     AUTO_MAIL_ITEM_NAME = {
 	 
             ["Golden Dragonfly"] = 1,
@@ -105,7 +105,9 @@ getgenv().GAG2Config = {
             ["Raccoon"] = 1,
             ["Monkey"] = 1,
             ["Ice Serpent"] = 1,
-   
+   			["Moon Bloom"] = 1,
+          
+			["Hypno Bloom"] = 1,
             ["Dragon's Breath"] = 1,
 			["Super Watering Can"] = 1,
      		["Super Sprinkler"] = 1,
