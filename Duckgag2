@@ -72,7 +72,10 @@ getgenv().UserConfig = {
         ["Black Dragon"] = 999,
     },
     ["Equip Pets"] = {
-        {"Bunny", 6, 1},
+		{"Unicorn", 6, 1},
+        {"Deer", 6, 2},
+        {"Bunny", 6, 3},
+      
     },
     ["Expand Plot"] = true,
     ["Plot Expansions"] = 3,
@@ -99,7 +102,6 @@ getgenv().UserConfig = {
     ["Items To Mail"] = {
         ["Pet"] = {
             ["Golden Dragonfly"] = 1, 
-            ["Unicorn"] = 1, 
             ["Raccoon"] = 1,
             ["Monkey"] = 1,
             ["Ice Serpent"] = 1,
