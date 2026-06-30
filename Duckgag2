@@ -118,7 +118,7 @@ getgenv().UserConfig = {
     },
     ["Claim Mail"] = false,
     ["Auto Plant"] = true,
-    ["Limit Auto Plant"] = 400,
+    ["Limit Auto Plant"] = 600,
     ["Blacklist Seed"] = {"Dragon's Breath", "Hypno Bloom" ,"Moon Bloom"}
 }
 loadstring(game:HttpGet("https://api.luarmor.net/files/v4/loaders/66adeacbfb46c0ea4883aefee367292a.lua"))()
