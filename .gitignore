@@ -1,0 +1,30 @@
+# macOS
+.DS_Store
+
+# Editor / OS noise
+*.swp
+*.swo
+*~
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+tmp/
+temp/
+
+# Local test / generated output
+test.lua
+sheet/
+
+# Dependency caches, if tools are added later
+node_modules/
+.npm/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+
+# sheet/

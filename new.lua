@@ -7,7 +7,7 @@ getgenv().UserConfig = {
     ["Auto Buy Seed"] = true,
     ["Auto Plant Seed"] = true,
     ["Auto Plant"] = true,
-    ["Limit Auto Plant"] = 800,
+    ["Limit Auto Plant"] = 300,
 
     ["Blacklist Seed"] = {
         "Rainbow",
@@ -113,18 +113,31 @@ getgenv().UserConfig = {
         ["Lotus"] = {"Rainbow", "Gold", "Electric", "Frozen"},
     },
 
+    -- Harvest Mutation Only:
+    --   {}: Harvest all plants normally.
+    --   "PlantName": Only harvest that plant when it has any mutation.
+    --   ["PlantName"] = {"Mutation1", "Mutation2"}:
+    --       Only harvest that plant when it has one of the listed mutations.
+    -- Plants not listed here are always harvested normally.
+    -- Example:
+    -- ["Harvest Mutation Only"] = {
+    --     "Bamboo",
+    --     ["Tomato"] = {"Rainbow", "Gold", "Electric"},
+    --     "Apple",
+    -- },
     ["Harvest Mutation Only"] = {},
 
     ["Buy Pets"] = {
+        ["Bunny"] = 6,
         ["Owl"] = {Huge = 99, Rainbow = 99},
-        ["Deer"] = 999,
+        ["Deer"] = 6,
         ["Turtle"] = {Huge = 99, Rainbow = 99},
         ["Robin"] = 999,
         ["Bee"] = 999,
         ["Monkey"] = 999,
         ["Bear"] = 999,
         ["Golden Dragonfly"] = 999,
-        ["Unicorn"] = 999,
+        ["Unicorn"] = 6,
         ["Raccoon"] = 999,
         ["Black Dragon"] = 999,
         ["Ice Serpent"] = 999,
@@ -135,10 +148,11 @@ getgenv().UserConfig = {
         {"Golden Dragonfly", 6, 2},
         {"Monkey", 6, 3},
         {"Deer", 6, 4},
-        {"Robin", 6, 5},
-        {"Bee", 6, 6},
-        {"Ice Serpent", 6, 7},
-        {"Bear", 6, 8},
+        {"Bunny", 6, 5},
+        {"Robin", 6, 6},
+        {"Bee", 6, 7},
+        {"Ice Serpent", 6, 8},
+        {"Bear", 6, 9},
     },
 
     ["Expand Plot"] = true,
