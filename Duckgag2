@@ -60,16 +60,14 @@ getgenv().UserConfig = {
         ["Moon Bloom"] = 999,
         ["Dragon's Breath"] = 999,
         ["Hypno Bloom"] = 999,
-		 ["Briar Rose"] = 999,
-		 ["Romanesco"] = 999,
+		 ["Briar Rose"] = 10,
+		 ["Romanesco"] = 10,
     },
     ["Favorite"] = {
         -- ["Horned Melon"] = {"Rainbow", "Gold"},
     },
     ["Buy Pets"] = {
         ["Bunny"] = 6,
-        ["Golden Dragonfly"] = 999,
-        ["Unicorn"] = 999,
         ["Raccoon"] = 999,
         ["Black Dragon"] = 999,
     },
@@ -103,15 +101,15 @@ getgenv().UserConfig = {
         ["Pet"] = {
             ["Golden Dragonfly"] = 1, 
             ["Raccoon"] = 1,
-            ["Monkey"] = 1,
-            ["Ice Serpent"] = 1,
-            ["Bear"] = 1,
-        },
+          
+},
         ["Seed"] = {
            
             ["Moon Bloom"] = 1,
             ["Dragon's Breath"] = 1,
 			["Hypno Bloom"] = 1,
+			 ["Briar Rose"] = 1,
+			 ["Romanesco"] = 1,
         },
         ["Gear"] = {
             ["Super Watering Can"] = 1,
@@ -121,7 +119,7 @@ getgenv().UserConfig = {
     ["Claim Mail"] = false,
     ["Auto Plant"] = true,
     ["Limit Auto Plant"] = 800,
-	["Auto Add Friends"] = true,
-    ["Blacklist Seed"] = {"Dragon's Breath", "Hypno Bloom" ,"Moon Bloom"}
+	
+    ["Blacklist Seed"] = {"Dragon's Breath", "Hypno Bloom" ,"Moon Bloom", "Briar Rose","Romanesco"}
 }
 loadstring(game:HttpGet("https://api.luarmor.net/files/v4/loaders/66adeacbfb46c0ea4883aefee367292a.lua"))()
