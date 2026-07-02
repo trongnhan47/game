@@ -217,7 +217,128 @@ Dùng công thức này để tự chấm nhanh khi shop có seed mới:
 | Gear nên mua | Watering Can, Sprinkler các cấp, Trowel, Gnome, Super Watering Can, Super Sprinkler |
 | Item nên giữ | Gold Seed, Rainbow Seed, Mega Seed, Mythic/Super eggs, Big/Mega/Rainbow pets |
 
-## Nguồn dữ liệu
+---
+
+## 15. Crop Mutations — Cây / trái cây đột biến
+
+> Mục tiêu: biết mutation nào nên giữ, mutation nào có thể bán, và nên ưu tiên mutation trên crop nào khi treo game.  
+> Theo wiki, mỗi crop chỉ có thể mang **1 mutation** tại một thời điểm. Giá bán cuối cùng dùng `MutationMultiplier` cùng với base price, kích thước, decay và bonus khác. Với **single-harvest crop**, bonus mutation bị giảm theo công thức `effectiveMut = 1 + (raw - 1) × 0.15`, vì vậy mutation mạnh nhất nên ưu tiên đặt trên **multi-harvest crop tier cao**.
+
+## 15.1 Quy tắc giữ / bán crop mutation
+
+| Tình huống | Hành động | Lý do |
+|---|---|---|
+| Crop tier cao + mutation x20 trở lên | **Favorite / giữ lại nếu chưa cần tiền** | Dùng làm tài sản giá trị cao, tránh bán nhầm |
+| Multi-harvest crop có Gold/Rainbow/Bloodlit/Starstruck/Aurora/Ignited | **Giữ cây, bán fruit khi cần tiền** | Multi-harvest tận dụng multiplier tốt hơn single-harvest |
+| Single-harvest crop có mutation | **Thường nên bán**, trừ khi là crop cực hiếm | Bonus mutation bị giảm mạnh trên single-harvest |
+| Crop thường giá thấp có Gold/Rainbow | **Bán nếu cần vốn**, không cần tiếc quá nhiều | Multiplier cao nhưng base thấp nên tổng tiền vẫn không bằng crop tier cao |
+| Crop Super/Mythic có mutation cao | **Không bán vội; favorite trước** | Đây là nhóm tạo tiền mạnh nhất khi treo game |
+| Mutation chưa rõ/TBA/unreleased | **Không đưa vào chiến lược chính** | Có thể chưa xuất hiện hoặc thông tin wiki chưa ổn định |
+
+## 15.2 Bảng crop mutation hiện có / đã ghi nhận trên wiki
+
+| Mutation | Nhóm | Raw Multiplier | Effective Multiplier nếu single-harvest | Fruit Chance khi harvest | Plant Chance khi growth | Có thể dính khi growth? | Cách lấy | Độ ưu tiên giữ |
+|---|---|---:|---:|---:|---:|---|---|---:|
+| Gold | Standard | x10 | x2.35 | 1% / 1:100 | 0.1% / 1:1000 | Có | Gold Seed; random gameplay; Goldmoon night event | 4/5 |
+| Rainbow | Standard | x30 | x5.35 | 0.33% / 1:300 | 0.033% / 1:3000 | Có | Rainbow Seed; random gameplay; Rainbow Weather | 5/5 |
+| Bloodlit | Environmental | x60 | x9.85 | 1% / 1:100 | 0.1% / 1:1000 | Không | Random trong Bloodmoon night event | 5/5 |
+| Electric | Environmental | x25 | x4.60 | 0.33% / 1:300 | 0.033% / 1:3000 | Không | Lightning strike vào active crops trong Lightning Storm | 5/5 |
+| Starstruck | Environmental | x50 | x8.35 | 1% / 1:100 | 0.1% / 1:1000 | Không | Random trong Starfall event | 5/5 |
+| Frozen | Environmental | x20 | x3.85 | 1% / 1:100 | 0.1% / 1:1000 | Không | Random trong Snowfall event | 4/5 |
+| Aurora | Environmental | x40 | x6.85 | 1% / 1:100 | 0.1% / 1:1000 | Không | Random trong Aurora event | 5/5 |
+| Ignited | Environmental | x60 | x9.85 | 1% / 1:100 | 0.1% / 1:1000 | Không | Random trong Sunburst event | 5/5 |
+| Secret | Unreleased / TBA | TBA | TBA | N/A | N/A | N/A | Chưa release; wiki ghi thông tin chưa rõ | TBA |
+| Solarflare | Unreleased | x5 | x1.60 | 1% / 1:100 | 0.1% / 1:1000 | Có | Chưa release; obtain TBA | 2/5 khi có |
+| Pizza | Unreleased | x5 | x1.60 | 1% / 1:100 | 0.1% / 1:1000 | Không | Chưa release; Pizza Moon weather | 2/5 khi có |
+| Chained | Unreleased | x8 | x2.05 | 1% / 1:100 | 0.1% / 1:1000 | Không | Chưa release; Chained Moon weather | 3/5 khi có |
+
+## 15.3 Mutation nào đáng giữ nhất khi treo game
+
+| Rank | Mutation | Vì sao đáng giữ | Nên dùng trên crop nào |
+|---:|---|---|---|
+| 1 | Bloodlit / Ignited | Raw x60, cao nhất trong nhóm đã ghi nhận | Moon Bloom, Hypno Bloom, Venom Spitter, Venus Fly Trap, Sunflower, Dragon's Breath |
+| 2 | Starstruck | Raw x50, cực mạnh | Super/Mythic multi-harvest crop |
+| 3 | Aurora | Raw x40, rất mạnh | Super/Mythic/Legendary multi-harvest crop |
+| 4 | Rainbow | Raw x30, có thể lấy bằng Rainbow Seed hoặc Rainbow Weather | Crop tier cao, ưu tiên multi-harvest |
+| 5 | Electric | Raw x25, event-based | Crop đang active trong Lightning Storm |
+| 6 | Frozen | Raw x20, vẫn đáng giữ trên crop xịn | Crop tier cao khi có Snowfall |
+| 7 | Gold | Raw x10, dễ gặp hơn, tốt để tăng vốn | Crop mid/high tier; bán nếu cần vốn |
+
+## 15.4 Cách chơi tối ưu khi có event mutation
+
+| Event / Điều kiện | Việc nên làm | Việc không nên làm |
+|---|---|---|
+| Goldmoon | Giữ crop tier cao chưa harvest để roll Gold | Thu hoạch sạch vườn trước event |
+| Rainbow Weather | Ưu tiên crop multi-harvest giá trị cao; giữ đất có cây xịn | Dùng Rainbow Seed cho crop rẻ nếu đang thiếu vốn |
+| Bloodmoon | Để Super/Mythic/Legendary crop sống trong vườn, chờ roll Bloodlit | Bán/harvest crop xịn ngay trước event |
+| Lightning Storm | Giữ active crops trên đất để có cơ hội Electric | Để đất trống hoặc toàn crop rẻ |
+| Starfall | Ưu tiên giữ crop base price cao để săn Starstruck | Harvest hết crop cao trước khi event chạy |
+| Snowfall | Giữ crop tier cao để roll Frozen | Chỉ trồng crop rẻ trong event |
+| Aurora | Giữ crop tier cao để roll Aurora | Bán vội crop có mutation cao nếu chưa favorite |
+| Sunburst | Giữ crop tier cao để roll Ignited | Để inventory đầy rồi bán nhầm fruit hiếm |
+
+## 15.5 Công thức quyết định bán hay giữ crop mutation
+
+```text
+Giá trị kỳ vọng = Base Price × Size Factor × Mutation Multiplier × Decay/Friends/Bonus
+```
+
+Quy tắc thực chiến:
+
+```text
+Nếu crop là Multi-Harvest + Mythic/Super + mutation >= x20 → giữ/favorite trước.
+Nếu crop là Common/Uncommon + mutation thấp → bán để lấy vốn.
+Nếu crop là Single-Harvest + mutation cao → bán khi cần tiền, vì bonus bị giảm.
+Nếu inventory gần đầy → bán crop thường trước, giữ crop mutation cao.
+```
+
+---
+
+## 16. Pet Mutations / Pet Variants — Thú đột biến
+
+> Wiki ghi pet có các biến thể/đột biến làm thay đổi kích thước, ngoại hình và tăng sức mạnh ability. Trang `Pets` ghi hai mutation chính là **Big** và **Mega**. Trang `Pet Mutations` lại ghi **Big** và **Huge**, nên phần dưới ưu tiên dùng tên **Big/Mega** vì trang Pets có bảng boost cụ thể.
+
+## 16.1 Bảng pet mutation / variant boost hiện có
+
+| Pet | Ability gốc | Normal Boost | Rainbow Boost | Big Mutation Boost | Mega Mutation Boost | Nên giữ? | Lý do |
+|---|---|---:|---:|---:|---:|---|---|
+| Bunny | Walk Speed | +5 Speed | +6.25 Speed | +10 Speed | +15 Speed | Giữ nếu thiếu mobility | Hỗ trợ di chuyển nhanh, nhưng không trực tiếp tăng tiền |
+| Frog | Jump Height | +5 Height | +6.25 Height | +10 Height | +15 Height | Giữ vừa phải | Hỗ trợ di chuyển, không phải pet farm tiền chính |
+| Deer | Plant growth speed | +10% growth speed | +12.5% growth speed | +20% growth speed | +30% growth speed | **Rất nên giữ** | Pet tốt cho treo game vì tăng tốc độ lớn của cây |
+
+## 16.2 Quy tắc ưu tiên pet đột biến
+
+| Pet mutation / variant | Tỉ lệ / độ hiếm theo wiki | Hiệu ứng tổng quát | Hành động |
+|---|---|---|---|
+| Big | Khoảng 1/50 nếu cùng logic egg chance; Big Pets page ghi 1/50 | Tăng ability khoảng 2x | Giữ, đặc biệt nếu là Deer hoặc pet farm tiền |
+| Mega | Khoảng 1/1000 nếu cùng logic egg chance; Mega Pets page ghi 1/1000 | Tăng ability khoảng 3x | Giữ tuyệt đối, không bán vội |
+| Rainbow | Không phải mutation chính nhưng là variant tăng stat | Cải thiện overall stats của base ability | Giữ nếu pet có ability farm/growth/mutation |
+| Huge | Tên xuất hiện trên trang Pet Mutations | Wiki không có bảng boost chi tiết trong nguồn hiện tại | Chỉ ghi chú, chưa dùng làm chiến lược chính |
+
+## 16.3 Pet đột biến nào đáng giữ nhất cho farm/treo
+
+| Độ ưu tiên | Pet / Variant | Hành động | Lý do |
+|---:|---|---|---|
+| 5/5 | Mega Deer | Giữ tuyệt đối | +30% plant growth speed, rất mạnh cho treo game |
+| 5/5 | Big Deer | Giữ | +20% plant growth speed, tốt hơn Deer thường nhiều |
+| 4/5 | Rainbow Deer | Giữ | +12.5% growth speed, ổn định và hữu dụng |
+| 3/5 | Big/Mega Bunny | Giữ nếu cần chạy nhanh | Tăng tốc di chuyển, tiện check shop/farm nhưng không tăng crop trực tiếp |
+| 3/5 | Big/Mega Frog | Giữ nếu cần mobility | Tăng nhảy, tiện di chuyển nhưng không tối ưu tiền bằng Deer |
+| TBA | Big/Mega pet khác | Giữ tạm nếu hiếm | Wiki hiện chưa có bảng boost đầy đủ cho tất cả pet |
+
+## 16.4 Checklist chống bán nhầm đồ hiếm
+
+| Loại | Cần favorite / giữ lại |
+|---|---|
+| Crop mutation cao | Bloodlit, Ignited, Starstruck, Aurora, Rainbow, Electric trên crop tier cao |
+| Crop tier cao | Moon Bloom, Hypno Bloom, Dragon's Breath, Venom Spitter, Venus Fly Trap, Sunflower |
+| Seed hiếm | Gold Seed, Rainbow Seed, Mega Seed |
+| Pet mutation | Big Deer, Mega Deer, Rainbow Deer, mọi Mega pet |
+| Pet farm tiền / hỗ trợ mutation | Deer, Robin, Monkey, Golden Dragonfly, Unicorn và bản mutation/variant của chúng nếu có |
+
+---
+
+## 17. Nguồn dữ liệu
 
 - Grow A Garden 2 Wiki — Main Page: https://growagarden2.fandom.com/wiki/Grow_A_Garden_2_Wiki
 - Crops: https://growagarden2.fandom.com/wiki/Crops
@@ -226,5 +347,7 @@ Dùng công thức này để tự chấm nhanh khi shop có seed mới:
 - Eggs: https://growagarden2.fandom.com/wiki/Eggs
 - Gears: https://growagarden2.fandom.com/wiki/Gears
 - Weather: https://growagarden2.fandom.com/wiki/Weather
-- Mutations: https://growagarden2.fandom.com/wiki/Mutations
 - Mechanics: https://growagarden2.fandom.com/wiki/Mechanics
+
+- Grow A Garden 2 Wiki — Mutations: https://growagarden2.fandom.com/wiki/Mutations
+- Grow A Garden 2 Wiki — Pet Mutations: https://growagarden2.fandom.com/wiki/Pet_Mutations
