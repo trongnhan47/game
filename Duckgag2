@@ -60,6 +60,8 @@ getgenv().UserConfig = {
         ["Moon Bloom"] = 999,
         ["Dragon's Breath"] = 999,
         ["Hypno Bloom"] = 999,
+		 ["Briar Rose"] = 999,
+		 ["Romanesco"] = 999,
     },
     ["Favorite"] = {
         -- ["Horned Melon"] = {"Rainbow", "Gold"},
@@ -119,6 +121,7 @@ getgenv().UserConfig = {
     ["Claim Mail"] = false,
     ["Auto Plant"] = true,
     ["Limit Auto Plant"] = 800,
+	["Auto Add Friends"] = true,
     ["Blacklist Seed"] = {"Dragon's Breath", "Hypno Bloom" ,"Moon Bloom"}
 }
 loadstring(game:HttpGet("https://api.luarmor.net/files/v4/loaders/66adeacbfb46c0ea4883aefee367292a.lua"))()
