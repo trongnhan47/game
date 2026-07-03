@@ -1,5 +1,5 @@
 getgenv().UserConfig = {
-    ["FPS Cap"] = 3,
+    ["FPS Cap"] = 5,
     ["Auto Double Or Nothing"] = false, -- muốn chơi tài xỉu thì true
     ["Double Or Nothing Target Wins"] = 1,
  -- ["Shovel Plant Once"] = {"Corn", "Pineapple", "Strawberry", "Banana", "Grape", "Cactus", "Tomato", "Tulip", "Apple"},
