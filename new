@@ -1,6 +1,7 @@
-
+setfpscap(5)
 getgenv().UserConfig = {
     ["FPS Cap"] = 5,
+	["Shovel Plant Once"] = {"Corn", "Pineapple", "Strawberry", "Banana", "Grape", "Cactus", "Tomato", "Tulip", "Apple"},
     ["Auto Buy Seed"] = true,
     ["Auto Plant Seed"] = true,
     ["Limit Plant Seed"] = {
@@ -29,6 +30,8 @@ getgenv().UserConfig = {
         ["Moon Bloom"] = 10,
 	["Hypno Bloom"] = 10,
 	["Briar Rose"] = 10,
+	 ["Fire Fern"] = 50,
+         ["Rocket Pop"] = 50,
     },
     ["Limit Buy Seed"] = {
         ["Carrot"] = 9999, 
@@ -57,9 +60,11 @@ getgenv().UserConfig = {
 	["Hypno Bloom"] = 10,
 	["Briar Rose"] = 10,
         ["Dragon's Breath"] = 10,
+		  ["Fire Fern"] = 999,
+         ["Rocket Pop"] = 999,
     },
 	["Blacklist Shovel"] = {"Mega", "Gold", "Rainbow", "Dragon's Breath", "Hypno Bloom" ,"Moon Bloom", "Ghost Pepper", "Venom Spitter", "Venus Fly Trap", "Briar Rose"},
-	["Shovel Plant Once"] = {},
+	
     ["Favorite"] = {
         -- ["Horned Melon"] = {"Rainbow", "Gold"},
     },
@@ -68,45 +73,30 @@ getgenv().UserConfig = {
         "Mushroom",
     },
     ["Buy Pets"] = {
-        ["Frog"] = {Big = 99, Huge = 99, Rainbow = 99},
-        ["Bunny"] = {Big = 99, Huge = 99, Rainbow = 99},
-        ["Turtle"] = {Big = 99, Huge = 99, Rainbow = 99},
-        ["Owl"] = {Big = 99, Huge = 99, Rainbow = 99},
-        ["Deer"] = {Normal = 6, Big = 99, Huge = 99, Rainbow = 99},
-        ["Robin"] = {Big = 99, Huge = 99, Rainbow = 99},
-        ["Bee"] = {Big = 99, Huge = 99, Rainbow = 99},
-        ["Monkey"] = {Big = 99, Huge = 99, Rainbow = 99},
-        ["Bear"] = 999,
+          ["Bunny"] = 6,
         ["Golden Dragonfly"] = 999,
         ["Unicorn"] = 999,
         ["Raccoon"] = 999,
         ["Black Dragon"] = 999,
+         ["Bald Eagle"] = 5,
+         ["Butterfly"] = 5,
     },
     ["Equip Pets"] = {
-        {"Deer", 6},
+        
+		  {"Bunny", 6, 1},
     },
     ["Expand Plot"] = true,
     ["Plot Expansions"] = 3,
-    ["Unlock Pet Slots"] = 5,
+    ["Unlock Pet Slots"] = 6,
     ["Auto Collect Seed Packs"] = true,
     ["Gears"] = {
         ["Buy Gear"] = {
-            -- "Common Watering Can",
-            -- "Common Sprinkler",
-            -- "Uncommon Sprinkler",
-            -- "Rare Sprinkler",
-            -- "Legendary Sprinkler",
+           
              ["Super Sprinkler"] = 100,
              ["Super Watering Can"] = 100,
         },
         ["Gears To Use"] = {
-            -- "Common Watering Can",
-            -- "Common Sprinkler",
-            -- "Uncommon Sprinkler",
-            -- "Rare Sprinkler",
-            -- "Legendary Sprinkler",
-            -- "Super Sprinkler",
-            -- "Super Watering Can",
+          
         },
     },
         -- WH Pet
@@ -124,25 +114,27 @@ getgenv().UserConfig = {
     ["Mail To Username"] = {"JoukeSmitzKoenun", "XxJoolsBo3rxX98"},
     ["Items To Mail"] = {
         ["Pet"] = {
-            ["Golden Dragonfly"] = 1,
-            ["Unicorn"] = 1,
+            ["Golden Dragonfly"] = 1, 
+            ["Unicorn"] = 1, 
             ["Raccoon"] = 1,
-            ["Bear"] = 1,
+            ["Monkey"] = 1,
+            ["Ice Serpent"] = 1,
+           
         },
         ["Seed"] = {
-            ["Rainbow"] = 2, 
-            ["Mega"] = 2,
-            ["Dragon's Breath"] = 1,
-            ["Gold"] = 3,
+            ["Rainbow"] = 5, 
+            ["Mega"] = 5, 
+             ["Fire Fern"] = 5, 
+            ["Rocket Pop"] = 5, 
         },
         ["Gear"] = {
-        ["Super Sprinkler"] = 2,
+        ["Super Sprinkler"] = 1,
 	["Super Watering Can"] = 2,
         },
     },
     ["Claim Mail"] = true,
     ["Auto Plant"] = true,
     ["Limit Auto Plant"] = 800,
-    ["Blacklist Seed"] = {"Rainbow", "Dragon's Breath", "Gold", "Mega"}
+    ["Blacklist Seed"] = { "Rainbow", "Mega", "Rocket Pop", "Fire Fern"}
 }
 loadstring(game:HttpGet("https://api.luarmor.net/files/v4/loaders/66adeacbfb46c0ea4883aefee367292a.lua"))()
