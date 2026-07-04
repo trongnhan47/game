@@ -103,8 +103,8 @@ getgenv().UserConfig = {
             ["Bear"] = 1,
         },
         ["Seed"] = {
-            ["Rainbow"] = 5, 
-            ["Mega"] = 5, 
+            ["Rainbow"] = 1, 
+            ["Mega"] = 1, 
              ["Fire Fern"] = 5, 
             ["Rocket Pop"] = 5, 
             
