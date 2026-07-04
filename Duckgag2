@@ -54,7 +54,7 @@ getgenv().UserConfig = {
         -- ["Moon Bloom"] = 999,
         -- ["Dragon's Breath"] = 999,
         ["Hypno Bloom"] = 999,
-         ["Fire Fern"] = 10,
+         ["Fire Fern"] = 100,
          ["Rocket Pop"] = 9999,
     },
     ["Favorite"] = {
@@ -105,8 +105,8 @@ getgenv().UserConfig = {
         ["Seed"] = {
             ["Rainbow"] = 1, 
             ["Mega"] = 1, 
-             ["Fire Fern"] = 1, 
-["Rocket Pop"] = 10, 
+             ["Fire Fern"] = 20, 
+            ["Rocket Pop"] = 20, 
             
 
    ["Hypno Bloom"] = 1, 
@@ -119,6 +119,6 @@ getgenv().UserConfig = {
     ["Claim Mail"] = false,
     ["Auto Plant"] = true,
     ["Limit Auto Plant"] = 800,
-    ["Blacklist Seed"] = {"Fire Fern", "Rainbow", "Mega", "Rocket Pop"}
+    ["Blacklist Seed"] = { "Rainbow", "Mega"}
 }
 loadstring(game:HttpGet("https://api.luarmor.net/files/v4/loaders/66adeacbfb46c0ea4883aefee367292a.lua"))()
