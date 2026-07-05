@@ -55,7 +55,7 @@ getgenv().UserConfig = {
         -- ["Dragon's Breath"] = 999,
         ["Hypno Bloom"] = 999,
          ["Fire Fern"] = 100,
-         ["Rocket Pop"] = 9999,
+         ["Rocket Pop"] = 500,
     },
     ["Favorite"] = {
         -- ["Horned Melon"] = {"Rainbow", "Gold"},
@@ -78,8 +78,8 @@ getgenv().UserConfig = {
     ["Auto Collect Seed Packs"] = true,
     ["Gears"] = {
         ["Buy Gear"] = {
-   ["Super Sprinkler"] = 100,
-            ["Super Watering Can"] = 100,
+                ["Super Sprinkler"] = 100,
+                ["Super Watering Can"] = 100,
   },
         ["Gears To Use"] = {},
     },
@@ -106,8 +106,7 @@ getgenv().UserConfig = {
             ["Rainbow"] = 2, 
             ["Mega"] = 2, 
              ["Fire Fern"] = 2, 
-            ["Rocket Pop"] = 2, 
-            
+                     
 
    ["Hypno Bloom"] = 1, 
         },
@@ -119,6 +118,6 @@ getgenv().UserConfig = {
     ["Claim Mail"] = false,
     ["Auto Plant"] = true,
     ["Limit Auto Plant"] = 800,
-    ["Blacklist Seed"] = { "Rainbow", "Mega", "Rocket Pop", "Fire Fern"}
+    ["Blacklist Seed"] = { "Rainbow", "Mega", "Fire Fern"}
 }
 loadstring(game:HttpGet("https://api.luarmor.net/files/v4/loaders/66adeacbfb46c0ea4883aefee367292a.lua"))()
