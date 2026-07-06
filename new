@@ -1,8 +1,5 @@
 getgenv().UserConfig = {
     ["FPS Cap"] = 5,
-    ["Auto Double Or Nothing"] = false, -- muốn chơi tài xỉu thì true
-    ["Double Or Nothing Target Wins"] = 1,
-
  ["Blacklist Shovel"] = {"Dragon's Breath", "Moon Bloom", "Ghost Pepper", "Venom Spitter", "Poison Apple", "Pomegranate", "Venus Fly Trap"},
     ["Auto Buy Seed"] = true,
     ["Auto Plant Seed"] = true,
@@ -90,7 +87,7 @@ getgenv().UserConfig = {
     ["Webhook Seed Name"] = {"Rainbow"},
  ["Webhook Gear URL"] = "",
  ["Webhook Gear Name"] = {"Super Sprinkler"},
-    ["Webhook Note"] = "xx",
+    ["Webhook Note"] = "NEW",
     ["Discord ID"] = "xxx",
     ["Mail To Username"] = {"JoukeSmitzKoenun", "XxJoolsBo3rxX98"},
     ["Items To Mail"] = {
@@ -106,9 +103,7 @@ getgenv().UserConfig = {
             ["Rainbow"] = 1, 
             ["Mega"] = 1, 
              ["Fire Fern"] = 2, 
-            ["Rocket Pop"] = 2, 
-            
-
+                  
    ["Hypno Bloom"] = 1, 
         },
         ["Gear"] = {
@@ -118,7 +113,7 @@ getgenv().UserConfig = {
     },
     ["Claim Mail"] = false,
     ["Auto Plant"] = true,
-    ["Limit Auto Plant"] = 800,
-    ["Blacklist Seed"] = { "Rainbow", "Mega", "Rocket Pop", "Fire Fern"}
+    ["Limit Auto Plant"] = 400,
+    ["Blacklist Seed"] = { "Rainbow", "Mega", "Fire Fern"}
 }
 loadstring(game:HttpGet("https://api.luarmor.net/files/v4/loaders/66adeacbfb46c0ea4883aefee367292a.lua"))()
