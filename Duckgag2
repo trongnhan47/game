@@ -101,11 +101,12 @@ getgenv().UserConfig = {
             ["Monkey"] = 1,
             ["Ice Serpent"] = 1,
             ["Bear"] = 1,
+              ["Black Dragon"] = 1,
         },
         ["Seed"] = {
             ["Rainbow"] = 2, 
             ["Mega"] = 2, 
-             ["Fire Fern"] = 2, 
+           
                      
 
    ["Hypno Bloom"] = 1, 
@@ -118,6 +119,6 @@ getgenv().UserConfig = {
     ["Claim Mail"] = false,
     ["Auto Plant"] = true,
     ["Limit Auto Plant"] = 800,
-    ["Blacklist Seed"] = { "Rainbow", "Mega", "Fire Fern"}
+    ["Blacklist Seed"] = { "Rainbow", "Mega" }
 }
 loadstring(game:HttpGet("https://api.luarmor.net/files/v4/loaders/66adeacbfb46c0ea4883aefee367292a.lua"))()
