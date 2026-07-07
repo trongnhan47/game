@@ -106,11 +106,10 @@ getgenv().UserConfig = {
         ["Seed"] = {
             ["Rainbow"] = 2, 
             ["Mega"] = 2, 
+                         
            
-                     
-
-   ["Hypno Bloom"] = 1, 
         },
+
         ["Gear"] = {
             ["Super Watering Can"] = 2,
             ["Super Sprinkler"] = 1,
