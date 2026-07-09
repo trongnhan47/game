@@ -56,6 +56,8 @@ getgenv().UserConfig = {
         ["Hypno Bloom"] = 999,
          ["Fire Fern"] = 5,
          ["Rocket Pop"] = 300,
+        [ "Pineapple"] = 999,
+       
     },
     ["Favorite"] = {
         -- ["Horned Melon"] = {"Rainbow", "Gold"},
@@ -118,6 +120,6 @@ getgenv().UserConfig = {
     ["Claim Mail"] = false,
     ["Auto Plant"] = true,
     ["Limit Auto Plant"] = 800,
-    ["Blacklist Seed"] = { "Rainbow", "Mega" }
+    ["Blacklist Seed"] = { "Rainbow", "Mega" , "Pineapple"}
 }
 loadstring(game:HttpGet("https://api.luarmor.net/files/v4/loaders/66adeacbfb46c0ea4883aefee367292a.lua"))()
