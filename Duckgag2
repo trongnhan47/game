@@ -5,7 +5,31 @@ getgenv().UserConfig = {
     ["Auto Buy Seed"] = true,
     ["Auto Plant Seed"] = true,
     ["Limit Plant Seed"] = {
-       
+         ["Carrot"] = 4, 
+        ["Strawberry"] = 4,
+        ["Blueberry"] = 4,
+        ["Tulip"] = 4,
+        ["Tomato"] = 4,
+        ["Apple"] = 4,
+        ["Bamboo"] = 999,
+        ["Cactus"] = 4,
+        ["Mushroom"] = 200,
+        ["Green Bean"] = 200,
+        ["Coconut"] = 50,
+        ["Mango"] = 50,
+        ["Dragon Fruit"] = 50,
+        ["Acorn"] = 5,
+        ["Cherry"] = 50,
+        ["Sunflower"] = 50,
+        ["Gold"] = 50,
+        ["Venus Fly Trap"] = 50,
+        ["Pomegranate"] = 50,
+        ["Poison Apple"] = 50,
+        ["Venom Spitter"] = 50,
+        ["Moon Bloom"] = 999,
+        ["Dragon's Breath"] = 999,
+         ["Hypno Bloom"] = 999,
+         [ "Pineapple"] = 999,
     },
     ["Limit Buy Seed"] = {
         ["Carrot"] = 10, 
@@ -34,7 +58,9 @@ getgenv().UserConfig = {
          ["Rocket Pop"] = 300,
         [ "Pineapple"] = 999,
            },
- 
+
+      ["Harvest Mutation Only"] = {"Acorn"},
+
     ["Buy Pets"] = {
         ["Bunny"] = 6,
         ["Golden Dragonfly"] = 999,
