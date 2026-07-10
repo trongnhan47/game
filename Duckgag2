@@ -30,6 +30,7 @@ getgenv().UserConfig = {
         ["Moon Bloom"] = 999,
         ["Dragon's Breath"] = 999,
          ["Hypno Bloom"] = 999,
+         [ "Pineapple"] = 999,
     },
     ["Limit Buy Seed"] = {
         ["Carrot"] = 10, 
