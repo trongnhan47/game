@@ -1,6 +1,6 @@
 getgenv().UserConfig = {
     ["FPS Cap"] = 5,
-     --  ["Shovel Plant Once"] = {"Corn", "Strawberry", "Banana", "Grape", "Cactus", "Tomato", "Apple"},
+    -- ["Shovel Plant Once"] = {"Corn", "Strawberry", "Banana", "Grape","Coconut", "Tomato", "Apple", "Dragon Fruit"},
  ["Blacklist Shovel"] = {"Dragon's Breath", "Moon Bloom", "Ghost Pepper", "Venom Spitter", "Poison Apple", "Pomegranate", "Venus Fly Trap", "Hypno Bloom"},
     ["Auto Buy Seed"] = true,
     ["Auto Plant Seed"] = true,
@@ -58,9 +58,9 @@ getgenv().UserConfig = {
          ["Rocket Pop"] = 300,
         [ "Pineapple"] = 999,
            },
-    ["Favorite"] = {
-        -- ["Horned Melon"] = {"Rainbow", "Gold"},
-    },
+ 
+    ["Harvest Mutation Only"] = ["Harvest Mutation Only"] = {"Corn", "Strawberry", "Banana", "Grape","Coconut", "Tomato", "Apple", "Dragon Fruit"},
+
     ["Buy Pets"] = {
         ["Bunny"] = 6,
         ["Golden Dragonfly"] = 999,
