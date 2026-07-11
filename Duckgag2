@@ -1,6 +1,6 @@
 getgenv().UserConfig = {
     ["FPS Cap"] = 5,
-  
+  ["Shovel Plant Once"] = {"Strawberry", "Blueberry", "Apple", "Tomato"},
  ["Blacklist Shovel"] = {"Mega", "Rainbow", "Gold", "Dragon's Breath", "Moon Bloom", "Ghost Pepper", "Venom Spitter", "Poison Apple", "Pomegranate", "Venus Fly Trap", "Hypno Bloom"},
     ["Auto Buy Seed"] = true,
     ["Auto Plant Seed"] = true,
