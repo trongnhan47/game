@@ -59,9 +59,7 @@ getgenv().UserConfig = {
         [ "Pineapple"] = 999,
            },
 
-     ["Harvest Mutation Only"] = {"Acorn", "Apple"},
-
-     ["Buy Pets"] = {
+       ["Buy Pets"] = {
         ["Bunny"] = 6,
         ["Golden Dragonfly"] = 999,
         ["Unicorn"] = 999,
@@ -102,10 +100,11 @@ getgenv().UserConfig = {
             ["Monkey"] = 1,
             ["Bald Eagle"] = 1,
             ["Bear"] = 1,
-              ["Black Dragon"] = 1,
+            ["Black Dragon"] = 1,
         },
         ["Seed"] = {
-                
+            ["Rainbow"] = 1, 
+            ["Mega"] = 1, 
         },
 
         ["Gear"] = {
