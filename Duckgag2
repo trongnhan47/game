@@ -59,7 +59,7 @@ getgenv().UserConfig = {
         [ "Pineapple"] = 999,
            },
 
-     ["Harvest Mutation Only"] = {"Acorn", "Apple"}
+     ["Harvest Mutation Only"] = {"Acorn", "Apple"},
 
      ["Buy Pets"] = {
         ["Bunny"] = 6,
