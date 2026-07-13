@@ -106,6 +106,7 @@ getgenv().UserConfig = {
             ["Bald Eagle"] = 1,
             ["Bear"] = 1,
             ["Black Dragon"] = 1,
+              ["Firefly"] = 1,
         },
 
         ["Seed"] = {
