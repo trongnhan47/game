@@ -50,13 +50,18 @@ getgenv().UserConfig = {
         ["Acorn"] = 50,
         ["Cherry"] = 50,
         ["Ghost Pepper"] = 5,
-        ["Venom Spitter"] = 999,
-        ["Moon Bloom"] = 999,
-        ["Dragon's Breath"] = 999,
-        ["Hypno Bloom"] = 999,
+        ["Venom Spitter"] = 5,
+        ["Moon Bloom"] = 5,
+        ["Dragon's Breath"] = 5,
+        ["Hypno Bloom"] = 5,
          ["Fire Fern"] = 5,
          ["Rocket Pop"] = 10,
-        [ "Pineapple"] = 999,
+        ["Sun Bloom"] = 5,
+         ["Star Fruit"] = 5,
+         ["Eclipse Bloom"] = 5,
+         ["Pineapple"] = 999,
+
+
            },
 
        ["Buy Pets"] = {
@@ -102,9 +107,14 @@ getgenv().UserConfig = {
             ["Bear"] = 1,
             ["Black Dragon"] = 1,
         },
+
         ["Seed"] = {
             ["Rainbow"] = 1, 
             ["Mega"] = 1, 
+           ["Sun Bloom"] = 1, 
+            ["Star Fruit"] = 1, 
+            ["Eclipse Bloom"] = 1, 
+            
         },
 
         ["Gear"] = {
@@ -115,6 +125,6 @@ getgenv().UserConfig = {
     ["Claim Mail"] = false,
     ["Auto Plant"] = true,
     ["Limit Auto Plant"] = 800,
-    ["Blacklist Seed"] = {}
+    ["Blacklist Seed"] = {"Sun Bloom","Star Fruit","Eclipse Bloom"}
 }
-loadstring(game:HttpGet("https://api.luarmor.net/files/v4/loaders/66adeacbfb46c0ea4883aefee367292a.lua"))()
+loadstring(game:HttpGet("https://api.luarmor.net/files/v4/loaders/2df5fc5e0dcd634a4405a4740eab1890.lua"))()
