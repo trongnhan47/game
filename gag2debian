@@ -69,9 +69,7 @@ getgenv().UserConfig = {
         ["Golden Dragonfly"] = 999,
         ["Unicorn"] = 999,
         ["Raccoon"] = 999,
-        ["Black Dragon"] = 999,
-         ["Butterfly"] = 5,
-          ["Firefly"] = 999,
+        ["Firefly"] = 999,
     },
     ["Equip Pets"] = {
         {"Bunny", 6, 1},
