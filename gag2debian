@@ -102,11 +102,7 @@ getgenv().UserConfig = {
             ["Golden Dragonfly"] = 1, 
             ["Unicorn"] = 1, 
             ["Raccoon"] = 1,
-            ["Monkey"] = 1,
-            ["Bald Eagle"] = 1,
-            ["Bear"] = 1,
-            ["Black Dragon"] = 1,
-              ["Firefly"] = 1,
+            ["Firefly"] = 1,
         },
 
         ["Seed"] = {
