@@ -131,8 +131,8 @@ getgenv().UserConfig = {
 			["Kitsune"] = 1,
         },
         ["Seed"] = {
-			["Rainbow"] = 3, 
-            ["Mega"] = 3, 
+			["Rainbow"] = {Amount = 3, To = "WaveHarith47"}, 
+            ["Mega"] = {Amount = 3, To = "WaveHarith47"}, 
 			["Hypno Bloom"] = 1,
 			["Moon Bloom"] = 1,
 			["Dragon's Breath"] = 1,
@@ -144,7 +144,7 @@ getgenv().UserConfig = {
         },
         ["Gear"] = {
 			["Super Watering Can"] = 1,
-            ["Super Sprinkler"] = 3,
+            ["Super Sprinkler"] = {Amount = 3, To = "WaveHarith47"}, 
         },
     },
     ["Claim Mail"] = false,
