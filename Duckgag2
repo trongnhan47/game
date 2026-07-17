@@ -119,11 +119,11 @@ getgenv().UserConfig = {
 	["Webhook Gear Name"] = {},
     ["Webhook Note"] = "LD",
     ["Discord ID"] = "xxx",
-    ["Mail To Username"] = {"PixelatedDancer1983" , "CarterAceVortex21"},
+    ["Mail To Username"] = {"Idris_GM194" , "WaveHarith47" , "PixelatedDancer1983" , "CarterAceVortex21"},
     ["Items To Mail"] = {
         ["Pet"] = {
-			["Golden Dragonfly"] = {Amount = 1, To = "WaveHarith47"}, 
-            ["Unicorn"] = {Amount = 1, To = "WaveHarith47"}, 
+			["Golden Dragonfly"] = 1, 
+            ["Unicorn"] = 1, 
             ["Raccoon"] = 1,
             ["Firefly"] = 1,
 			["Black Dragon"] = 1,
@@ -131,8 +131,8 @@ getgenv().UserConfig = {
 			["Kitsune"] = 1,
         },
         ["Seed"] = {
-			["Rainbow"] = {Amount = 3, To = "WaveHarith47"},
-            ["Mega"] = {Amount = 3, To = "WaveHarith47"}, 
+			["Rainbow"] = 2,
+            ["Mega"] = 2, 
 			["Hypno Bloom"] = 1,
 			["Moon Bloom"] = 1,
 			["Dragon's Breath"] = 1,
@@ -144,7 +144,7 @@ getgenv().UserConfig = {
         },
         ["Gear"] = {
 			["Super Watering Can"] = 1,
-            ["Super Sprinkler"] = {Amount = 3, To = "WaveHarith47"},  
+            ["Super Sprinkler"] = 2,  
         },
     },
     ["Claim Mail"] = false,
