@@ -119,7 +119,7 @@ getgenv().UserConfig = {
 	["Webhook Gear Name"] = {},
     ["Webhook Note"] = "Debian",
     ["Discord ID"] = "Debian",
-    ["Mail To Username"] = {"Idris_GM194" , "PixelatedDancer1983" , "CarterAceVortex21"},
+    ["Mail To Username"] = { "PixelatedDancer1983" , "CarterAceVortex21"},
     ["Items To Mail"] = {
         ["Pet"] = {
 			["Golden Dragonfly"] = 1, 
@@ -144,7 +144,7 @@ getgenv().UserConfig = {
         },
         ["Gear"] = {
 			["Super Watering Can"] = 1,
-            ["Super Sprinkler"] = 2,
+            ["Super Sprinkler"] = 3,
         },
     },
     ["Claim Mail"] = false,
