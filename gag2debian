@@ -81,11 +81,11 @@ getgenv().UserConfig = {
     ["Buy Pets"] = {
         ["Bunny"] = 6,
         ["Golden Dragonfly"] = 999,
-        ["Unicorn"] = 999,
+        ["Unicorn"] = 6,
         ["Raccoon"] = 999,
-        ["Black Dragon"] = 999,
-        ["Butterfly"] = 999,
-        ["Kitsune"] = 999,
+        ["Black Dragon"] = 5,
+        ["Butterfly"] = 5,
+        ["Kitsune"] = 5,
         ["Firefly"] = 999,
     },
 	["Equip Pets"] = { -- Petname, Amount, Priority
