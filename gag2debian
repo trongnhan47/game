@@ -1,7 +1,7 @@
 getgenv().UserConfig = {
      ["Auto Double Or Nothing"] = false, -- muốn chơi tài xỉu thì true
     ["Double Or Nothing Target Wins"] = 1,
-	-- ["Shovel Plant Once"] = {"Acorn"},
+	["Shovel Plant Once"] = {"Apple"},
 	["Blacklist Shovel"] = {"Rainbow", "Dragon's Breath", "Venus Fly Trap", "Moon Bloom", "Venom Spitter", "Hypno Bloom", "Mega", "Ghost Pepper", "Fire Fern", "Pineapple", "Sun Bloom", "Star Fruit", "Eclipse Bloom"},
     ["Auto Buy Seed"] = true,
     ["Auto Plant Seed"] = true,
