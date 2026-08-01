@@ -117,13 +117,13 @@ getgenv().UserConfig = {
     ["Items To Mail"] = {
         ["Pet"] = {
 			["Golden Dragonfly"] = 1, 
-            ["Unicorn"] = 1, 
+            ["Unicorn"] = 2, 
             ["Raccoon"] = 1,
            	["Black Dragon"] = 1,
         },
         ["Seed"] = {
-			["Rainbow"] = 1, 
-            ["Mega"] = 2, 
+			["Rainbow"] = 5, 
+            ["Mega"] = 10, 
 			["Hypno Bloom"] = 1,
 			["Moon Bloom"] = 1,
 			["Dragon's Breath"] = 1,
@@ -133,7 +133,7 @@ getgenv().UserConfig = {
         },
         ["Gear"] = {
 			["Super Watering Can"] = 1,
-            ["Super Sprinkler"] = 1,
+            ["Super Sprinkler"] = 2,
         },
     },
     ["Claim Mail"] = false,
