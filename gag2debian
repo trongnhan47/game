@@ -2,7 +2,7 @@ getgenv().UserConfig = {
      ["Auto Double Or Nothing"] = false, -- muốn chơi tài xỉu thì true
     ["Double Or Nothing Target Wins"] = 1,
 	-- ["Shovel Plant Once"] = {"Apple"},
-	["Blacklist Shovel"] = {"Rainbow", "Dragon's Breath", "Venus Fly Trap", "Moon Bloom", "Venom Spitter", "Hypno Bloom", "Mega", "Ghost Pepper", "Fire Fern", "Pineapple", "Sun Bloom", "Star Fruit", "Eclipse Bloom"},
+	["Blacklist Shovel"] = {"Rainbow", "Dragon's Breath", "Venus Fly Trap", "Moon Bloom", "Hypno Bloom", "Mega", "Ghost Pepper", "Fire Fern", "Pineapple", "Sun Bloom", "Star Fruit", "Eclipse Bloom"},
     ["Auto Buy Seed"] = true,
     ["Auto Plant Seed"] = true,
     ["Limit Plant Seed"] = {
@@ -119,10 +119,7 @@ getgenv().UserConfig = {
 			["Golden Dragonfly"] = 1, 
             ["Unicorn"] = 1, 
             ["Raccoon"] = 1,
-            ["Firefly"] = 1,
-			["Black Dragon"] = 1,
-			["Butterfly"] = 1,
-			["Kitsune"] = 1,
+           	["Black Dragon"] = 1,
         },
         ["Seed"] = {
 			["Rainbow"] = 1, 
@@ -133,8 +130,6 @@ getgenv().UserConfig = {
             ["Sun Bloom"] = 1, 
             ["Star Fruit"] = 1, 
             ["Eclipse Bloom"] = 1, 
-			 ["Venom Spitter"] = 1,
-		
         },
         ["Gear"] = {
 			["Super Watering Can"] = 1,
@@ -144,6 +139,6 @@ getgenv().UserConfig = {
     ["Claim Mail"] = false,
     ["Auto Plant"] = true,
     ["Limit Auto Plant"] = 800,
-    ["Blacklist Seed"] = {"Rainbow", "Dragon's Breath",  "Moon Bloom","Venom Spitter",  "Hypno Bloom", "Mega", "Sun Bloom", "Star Fruit", "Eclipse Bloom"}
+    ["Blacklist Seed"] = {"Rainbow", "Dragon's Breath",  "Moon Bloom", "Hypno Bloom", "Mega", "Sun Bloom", "Star Fruit", "Eclipse Bloom"}
 }
 loadstring(game:HttpGet("https://api.luarmor.net/files/v4/loaders/66adeacbfb46c0ea4883aefee367292a.lua"))()
