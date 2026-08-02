@@ -122,8 +122,8 @@ getgenv().UserConfig = {
            	["Black Dragon"] = 1,
         },
         ["Seed"] = {
-			["Rainbow"] = 5, 
-            ["Mega"] = 10, 
+			["Rainbow"] = 10, 
+            ["Mega"] = 50, 
 			["Hypno Bloom"] = 1,
 			["Moon Bloom"] = 1,
 			["Dragon's Breath"] = 1,
@@ -133,7 +133,7 @@ getgenv().UserConfig = {
         },
         ["Gear"] = {
 			["Super Watering Can"] = 1,
-            ["Super Sprinkler"] = 2,
+            ["Super Sprinkler"] = 5,
         },
     },
     ["Claim Mail"] = false,
