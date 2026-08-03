@@ -107,7 +107,7 @@ getgenv().UserConfig = {
     ["Mail To Username"] = {"lennoxtv1116" , "ONDREJ_VR837" , "Idris_GM194" , "TRUEPEGASUS4166" ,  "GLOSSYMAHDI542"}, -- Tên tài khoản chính nhận đồ
     ["Items To Mail"] = {
 		  ["Gear"] = {
-			["Super Syrup Watering Can"] = 4,
+			["Super Syrup Watering Can"] = 2,
         },
     
     },
