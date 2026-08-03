@@ -108,6 +108,7 @@ getgenv().UserConfig = {
     ["Items To Mail"] = {
 		  ["Gear"] = {
 			["Super Syrup Watering Can"] = 1,
+			["Super Syrup Sprinkler"] = 1,
         },
     
     },
