@@ -112,6 +112,7 @@ getgenv().UserConfig = {
         },
     	["Seed"] = {
 			["Atlantic Giant Pumpkin"] = 1,  
+			["Amber Cranberry"] = 1,  
         },
     },
     ["Claim Mail"] = false, -- Tự động nhận thư gửi đến
