@@ -65,8 +65,8 @@ getgenv().UserConfig = {
         -- ["Swan"] = {Normal =1, Big = 99, Huge = 99, Rainbow = 99},
         
         -- Mythic
-        ["Fox"] = 999,
-        ["Wolf"] = 999,
+        ["Fox"] = 6,
+        ["Wolf"] = 6,
 		-- Super
         ["Shadow Dragon"] = 999,
     },
@@ -104,7 +104,7 @@ getgenv().UserConfig = {
     },
   
   -- [ TÍNH NĂNG GỬI THƯ (MAIL) ]
-    ["Mail To Username"] = {"lennoxtv1116" , "ONDREJ_VR837" , "Idris_GM194" , "TRUEPEGASUS4166" ,  "GLOSSYMAHDI542"}, -- Tên tài khoản chính nhận đồ
+    ["Mail To Username"] = {"lennoxtv1116" , "ONDREJ_VR837" , "Idris_GM194" , "TRUEPEGASUS4166" , "NasirJR6274" ,  "GLOSSYMAHDI542"}, -- Tên tài khoản chính nhận đồ
     ["Items To Mail"] = {
 		  ["Gear"] = {
 			["Super Syrup Watering Can"] = 1,
