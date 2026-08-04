@@ -115,8 +115,8 @@ getgenv().UserConfig = {
 			["Amber Cranberry"] = 1,  
         },
   	   ["Pet"] = {
-			["Fox"] = 2, 
-            ["Wolf"] = 2, 
+			["Fox"] = 6, 
+            ["Wolf"] = 6, 
         },
     },
     ["Claim Mail"] = false, -- Tự động nhận thư gửi đến
