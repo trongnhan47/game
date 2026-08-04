@@ -114,6 +114,10 @@ getgenv().UserConfig = {
 			["Atlantic Giant Pumpkin"] = 1,  
 			["Amber Cranberry"] = 1,  
         },
+  	   ["Pet"] = {
+			["Fox"] = 2, 
+            ["Wolf"] = 2, 
+        },
     },
     ["Claim Mail"] = false, -- Tự động nhận thư gửi đến
   
