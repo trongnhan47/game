@@ -117,6 +117,8 @@ getgenv().UserConfig = {
   	   ["Pet"] = {
 			["Fox"] = 6, 
             ["Wolf"] = 6, 
+			["Shadow Dragon"] = 1, 
+
         },
     },
     ["Claim Mail"] = false, -- Tự động nhận thư gửi đến
