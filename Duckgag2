@@ -117,7 +117,7 @@ getgenv().UserConfig = {
 			["Amber Cranberry"] = 1,  
         },
   	   ["Pet"] = {
-			["Fox"] = 3,
+			["Fox"] = 2,
   			["Wolf"] = 6,
         	["Shadow Dragon"] = 1, 
 
