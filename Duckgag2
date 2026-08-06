@@ -51,15 +51,27 @@ getgenv().UserConfig = {
   ["Harvest Mutation Only"] = {}, -- Danh sách chỉ thu hoạch khi có đột biến (Mutation)
     ["Favorite"] = {}, -- Danh sách mục yêu thích
     ["Buy Pets"] = {
-         ["Wolf"] = {Normal = 6, Big = 6, Huge = 99, Rainbow = 6},
-        ["Swan"] = {Normal = 6, Big = 6, Huge = 99, Rainbow = 6},
-        ["Turkey"] = {Normal = 6},
+        -- Cấu hình tự động mua các loại pet (Thêm dấu -- ở đầu để tạm tắt mua pet đó)
+        
+        -- Uncommon
+        ["Dog"] = {Normal =6, Big = 99, Huge = 99, Rainbow = 99},
+        
+        -- Rare
+        -- ["Hedgehog"] = {Big = 99, Huge = 99, Rainbow = 99},
+        -- ["Turkey"] = {Big = 99, Huge = 99, Rainbow = 99},
+        
+        -- Legendary
+        -- ["Squirrel"] = {Big = 99, Huge = 99, Rainbow = 99},
+        -- ["Swan"] = {Normal =1, Big = 99, Huge = 99, Rainbow = 99},
+        
+        -- Mythic
+        ["Fox"] = 6,
+        ["Wolf"] = 6,
+		-- Super
         ["Shadow Dragon"] = 999,
     },
-	["Equip Wolf At Night"] = true,
   ["Equip Pets"] = {
-		{"Swan", 6, 1},
-        {"Turkey", 6, 2},
+    {"Dog", 6, 1} -- Tự động trang bị pet Unicorn
       },
   ["Sell Pets"] = {
         -- Cấu hình tự động bán pet (Thêm dấu -- ở đầu để tạm tắt)
@@ -107,7 +119,7 @@ getgenv().UserConfig = {
         },
   	   ["Pet"] = {
 			["Fox"] = 2,
-  		 	["Shadow Dragon"] = 1, 
+  		  	["Shadow Dragon"] = 1, 
 
         },
     },
