@@ -65,8 +65,8 @@ getgenv().UserConfig = {
         -- ["Swan"] = {Normal =1, Big = 99, Huge = 99, Rainbow = 99},
         
         -- Mythic
-        ["Fox"] = 6,
-        ["Wolf"] = 6,
+        -- ["Fox"] = 6,
+        -- ["Wolf"] = 6,
 		-- Super
         ["Shadow Dragon"] = 999,
     },
@@ -118,8 +118,7 @@ getgenv().UserConfig = {
 			["Amber Cranberry"] = 1,  
         },
   	   ["Pet"] = {
-			["Fox"] = 2,
-  		  	["Shadow Dragon"] = 1, 
+			  	["Shadow Dragon"] = 1, 
 
         },
     },
