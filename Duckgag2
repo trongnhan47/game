@@ -100,12 +100,15 @@ getgenv().UserConfig = {
 	-- WH Gear
 	["Webhook Gear URL"] = "",
 	["Webhook Gear Name"] = {},
-    ["Webhook Note"] = "",
-    ["Discord ID"] = "",
+    ["Webhook Note"] = "Debian",
+    ["Discord ID"] = "Debian",
 	-- Mail
     ["Mail To Username"] = { "BaconRiderStarYT" , "XxHannahInfern0xX201" , "WillowCrystalLava" ,"ONDREJ_VR837" , "Idris_GM194" , "TRUEPEGASUS4166" , "NasirJR6274" ,  "GLOSSYMAHDI542"},
     ["Items To Mail"] = {
-		["Pet"] = {	["Shadow Dragon"] = 1, },
+		["Pet"] = {	
+			["Shadow Dragon"] = 1, 
+			["Fox"] = 2, 
+	},
         ["Seed"] = {
 			["Atlantic Giant Pumpkin"] = 1,  
 			["Amber Cranberry"] = 1,  
