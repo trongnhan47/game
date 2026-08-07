@@ -114,7 +114,7 @@ getgenv().UserConfig = {
 			["Amber Cranberry"] = 1,  
 			},
         ["Gear"] = {
-			["Super Syrup Watering Can"] = 1,
+			["Super Syrup Watering Can"] = 2,
 			["Super Syrup Sprinkler"] = 1,
 			},
 		["Other"] = {},
