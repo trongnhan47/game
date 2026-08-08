@@ -65,6 +65,7 @@ getgenv().UserConfig = {
         ["Wolf"] = {Normal = 6, Big = 6, Huge = 6, Rainbow = 6},
 		["Fox"] = {Normal = 6, Big = 6, Huge = 6, Rainbow = 6},
         ["Shadow Dragon"] = 999,
+		 ["Kitsune"] = 999,
     },
     ["Equip Wolf At Night"] = true,
 	["Equip Pets"] = { -- Khong can ghi Wolf vao day nhe
@@ -107,6 +108,7 @@ getgenv().UserConfig = {
     ["Mail To Username"] = { "BaconRiderStarYT" , "XxHannahInfern0xX201" ,"ONDREJ_VR837" , "Idris_GM194" , "TRUEPEGASUS4166" , "NasirJR6274" ,  "GLOSSYMAHDI542"},
     ["Items To Mail"] = {
 		["Pet"] = {	
+			["Kitsune"] = 1, 
 			["Shadow Dragon"] = 1, 
 			["Fox"] = 1, 
 	},
