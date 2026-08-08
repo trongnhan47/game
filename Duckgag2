@@ -108,7 +108,7 @@ getgenv().UserConfig = {
     ["Items To Mail"] = {
 		["Pet"] = {	
 			["Shadow Dragon"] = 1, 
-			["Fox"] = 2, 
+			["Fox"] = 1, 
 	},
         ["Seed"] = {
 			["Atlantic Giant Pumpkin"] = 1,  
