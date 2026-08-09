@@ -26,7 +26,7 @@ getgenv().UserConfig = {
         ["Maple Venus Fly Trap"] = 1,
         ["Maple Pomegranate"] = 1,
         ["Maple Poison Apple"] = 1,
-        ["Maple Venom Spitter"] = 1,
+        ["Maple Venom Spitter"] = 9999,
         ["Conifer Cone"] = 999,
     },
 	["Harvest Mutation Only"] = {
@@ -116,6 +116,8 @@ getgenv().UserConfig = {
 			["Atlantic Giant Pumpkin"] = 1,  
 			["Amber Cranberry"] = 1,  
 			 ["Conifer Cone"] = 1,
+			 ["Maple Venom Spitter"] = 1,
+			
 			},
         ["Gear"] = {
 			["Super Syrup Watering Can"] = 2,
@@ -131,7 +133,7 @@ getgenv().UserConfig = {
         "Maple Strawberry", "Maple Blueberry", "Maple Tomato", "Maple Apple", "Maple Corn",
         "Maple Cactus", "Maple Pineapple", "Maple Green Bean", "Maple Banana",
         "Maple Grape", "Maple Coconut", "Maple Mango",
-        "Amber Cranberry", "Atlantic Giant Pumpkin" , "Conifer Cone"
+        "Amber Cranberry", "Atlantic Giant Pumpkin" , "Conifer Cone" , "Maple Venom Spitter" 
     },
     ["Blacklist Shovel"] = {
         "Maple Carrot", "Maple Tulip", "Maple Bamboo", "Maple Mushroom",
