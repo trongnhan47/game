@@ -104,7 +104,7 @@ getgenv().UserConfig = {
     ["Webhook Note"] = "Debian",
     ["Discord ID"] = "Debian",
 	-- Mail
-    ["Mail To Username"] = {  "ThorThibault952" , "BaconRiderStarYT" , "XxHannahInfern0xX201" ,"ONDREJ_VR837" , "Idris_GM194" , "NasirJR6274" ,  "GLOSSYMAHDI542"},
+    ["Mail To Username"] = { "TRUEPEGASUS4166" , "ThorThibault952" , "BaconRiderStarYT" , "XxHannahInfern0xX201" ,"ONDREJ_VR837" , "Idris_GM194" , "NasirJR6274" ,  "GLOSSYMAHDI542"},
     ["Items To Mail"] = {
 		["Pet"] = {	
 			["Kitsune"] = 1, 
