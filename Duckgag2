@@ -120,8 +120,8 @@ getgenv().UserConfig = {
 			
 			},
         ["Gear"] = {
-			["Super Syrup Watering Can"] = 5,
-			["Super Syrup Sprinkler"] = 2,
+			["Super Syrup Watering Can"] = 7,
+			["Super Syrup Sprinkler"] = 3,
 			},
 		["Other"] = {},
     },
